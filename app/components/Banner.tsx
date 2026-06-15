@@ -19,9 +19,9 @@ export default function Banner() {
               width={400}
               height={400}
               decoding="async"
-              className="object-contain h-40 w-40 sm:h-60 sm:w-60 md:w-80 md:h-80"
+              className="object-contain h-40 bottom-[-14px] relative w-40 sm:h-60 sm:w-60 md:w-80 md:h-80"
               style={{ color: "transparent" }}
-              src="/PanditJi.png"
+              src="/NPanditJi.png"
             />
           </div>
         </div>
