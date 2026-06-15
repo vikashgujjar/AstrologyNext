@@ -7,10 +7,10 @@ const SOURCE_SLIDES = [
   { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80", alt: "Pandit Chandrashekhar Sharma with Team" },
   { src: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&q=80", alt: "Pandit Chandrashekhar Sharma with Team" },
   { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=600&q=80", alt: "Pandit Chandrashekhar Sharma at Ambani Wedding" },
-  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80", alt: "Prana Astrologers with MS Dhoni" },
+  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80", alt: "Astro Sanatana Veer Astrologers with MS Dhoni" },
   { src: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&q=80", alt: "Pandit Chandrashekhar Sharma with Rajinikanth" },
   { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=600&q=80", alt: "Pandit Chandrashekhar Sharma with the Ambani Family" },
-  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80", alt: "Prana Astrologers with MS Dhoni" },
+  { src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=600&q=80", alt: "Astro Sanatana Veer Astrologers with MS Dhoni" },
   { src: "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?w=600&q=80", alt: "Pandit Chandrashekhar Sharma with Rajinikanth" },
   { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=600&q=80", alt: "Pandit Chandrashekhar Sharma with the Ambani Family" },
 ];

@@ -24,7 +24,7 @@ export default function Solutions() {
       <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-10 md:mb-14 leading-snug">
         Best Solution Provided By{" "}
         <span className="font-playfair-display-italic text-foreground">
-          Pandit C.K Sharma
+          Astro Sanatana Veer
         </span>
       </h2>
 

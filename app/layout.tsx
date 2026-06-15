@@ -26,7 +26,7 @@ const quicksand = Quicksand({
 });
 
 export const metadata: Metadata = {
-  title: "Prana Astrology",
+  title: "Astro Sanatana Veer",
   description: "Connect with expert astrologers",
 };
 

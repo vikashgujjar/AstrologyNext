@@ -7,7 +7,7 @@ export default function Banner() {
         <div className="bg-gradient-to-tr relative from-[#1a0f39] via-[#2c1359] to-[#4e1457]  flex rounded-3xl items-center md:overflow-visible overflow-hidden">
           <div className="flex flex-col items-start p-4 sm:p-10 md:p-16 basis-2/3">
             <h1 className="bg-gradient-to-r from-[#AB8CFF] to-foreground inline-block  text-transparent bg-clip-text text-2xl sm:text-4xl md:text-5xl text-nowrap">
-              Pandit C.K Sharma
+              Astro Sanatana Veer
             </h1>
             <span className="font-quicksand text-sm sm:text-xl md:text-3xl text-white font-medium mt-4">
               Trusted astrologer to the world&apos;s most respected families.

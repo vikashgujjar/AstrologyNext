@@ -32,9 +32,9 @@ export default function Header() {
           {/* Logo */}
           <div className="flex">
             <Link className="-m-1.5 p-1.5" href="/">
-              <div className="w-20 h-20 relative w-20 h-20">
+              <div className="w-40 h-20 relative w-20 h-20">
                 <Image
-                  alt="PRANA"
+                  alt="Astro"
                   fill
                   decoding="async"
                   className="object-contain"
@@ -112,9 +112,9 @@ export default function Header() {
             {/* Top row: logo + close button */}
             <div className="flex justify-between items-center mb-8">
               <Link className="-m-1.5 p-1.5" href="/" onClick={() => setMenuOpen(false)}>
-                <div className="w-20 h-20 relative w-20 h-20">
+                <div className="w-48 h-20 relative w-20 h-20">
                   <Image
-                    alt="PRANA"
+                    alt="Astro Sanatana Veer"
                     fill
                     decoding="async"
                     className="object-contain"
@@ -178,7 +178,7 @@ export default function Header() {
                     />
                   </div>
                   <p className="text-lg font-playfair-display text-foreground font-medium">Book Us</p>
-                  <p className="text-xl">varunsharma@pranaindia.com</p>
+                  <p className="text-xl">info@astrospiritualistmasteromkar.com</p>
                   <p className="text-sm">For support and bookings please contact us anytime.</p>
                 </div>
               </div>

@@ -9,18 +9,18 @@ export default function Footer() {
         {/* Brand + Social */}
         <div className="col-span-1">
           <div className="flex flex-col items-start justify-start p-6 md:p-0">
-            <div className="md:space-y-16 flex flex-row items-center md:items-start  md:flex-col gap-x-5">
+            <div className="md:space-y-2 flex flex-row items-center md:items-start  md:flex-col gap-x-5">
               <Image
-                alt="PRANA"
+                alt="Astro Sanatana Veer"
                 loading="lazy"
-                width={168}
+                width={200}
                 height={100}
                 decoding="async"
                 style={{ color: "transparent" }}
                 src="/prana.svg"
               />
               <p className="text-md font-medium text-primary">
-                We are astrologers and priest trained by Pandit Chandrashekhar Sharma, the worlds most trusted astrologer.
+                We are astrologers and priest trained by Astro Sanatana Veer the worlds most trusted astrologer.
               </p>
             </div>
             <div className="pt-6 flex  gap-4 items-center justify-center md:justify-start w-full">
@@ -50,11 +50,11 @@ export default function Footer() {
         <div className="col-span-1 lg:col-span-2">
           <div className="justify-start items-start gap-[60px] grid grid-cols-2 sm:grid-cols-3">
 
-            {/* Prana + Legal */}
+            {/* Astro Sanatana Veer + Legal */}
             <div className="flex-col justify-start items-start gap-10 inline-flex">
               <div className="flex flex-col space-y-4">
                 <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
-                  <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Prana</div>
+                  <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Astro Sanatana Veer</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/about">About Us</Link>
@@ -127,12 +127,12 @@ export default function Footer() {
                     <Image alt="Global" loading="lazy" width={20} height={20} decoding="async" className="w-5 h-5" style={{ color: "transparent" }} src="/global.svg" />
                   </div>
                 </div>
-                <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Branches</div>
+                <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Address</div>
               </div>
               <div className="flex flex-col gap-2">
                 <div className="text-primary text-xl font-normal font-quicksand leading-5"></div>
                 <div className="text-primary text-sm font-semibold font-quicksand capitalize leading-5">
-                  Bangalore, Delhi, Mumbai, Chennai, Hyderabad, Pune, Kolkata, Gurgaon, Ahmedabad
+                  1123 Albion Rd Ground floor, Etobicoke, ON M9V 1A9, Canada
                 </div>
               </div>
             </div>
@@ -147,7 +147,8 @@ export default function Footer() {
                 <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Book Us</div>
               </div>
               <div className="flex flex-col gap-2">
-                <div className="text-primary text-xl font-normal font-quicksand leading-5">varunsharma@pranaindia.com</div>
+                <div className="text-primary text-xl font-normal font-quicksand leading-5">info@astrospiritualistmasteromkar.com</div>
+                <div className="text-primary text-xl font-normal font-quicksand leading-5">+1 416-931-4409</div>
                 <div className="text-primary text-sm font-semibold font-quicksand capitalize leading-5">
                   For support and bookings please contact us anytime.
                 </div>
@@ -166,7 +167,7 @@ export default function Footer() {
           <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div>
           <div className="hidden md:block">Privacy Policy</div>
           <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div>
-          <div className="">© Copyright 2024 by Puja Homa</div>
+          <div className="">© Copyright 2024 by Future IT Touch Pvt. Ltd.</div>
         </div>
       </div>
     </div>
