@@ -1,26 +1,124 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 38 50% 97%;
+  --foreground: 23 98% 58%;
+  --card: 38 50% 97%;
+  --card-foreground: 23 98% 58%;
+  --popover: 38 50% 97%;
+  --popover-foreground: 23 98% 58%;
+  --primary: 267 77% 8%;
+  --primary-foreground: 23 100% 91%;
+  --secondary: 256 36% 37%;
+  --secondary-light: 257 24% 47%;
+  --secondary-shade: 269 100% 92%;
+  --secondary-glass: 256 22% 49%;
+  --secondary-foreground: 267 77% 8%;
+  --tertiary: 190 17% 86%;
+  --muted: 256 36% 37%;
+  --light: 268 17% 31%;
+  --background-light: 12 13% 94%;
+  --brown-foreground: 23 100% 16%;
+  --gray-foreground: 0 0% 96%;
+  --success: 122 39% 49%;
+  --success-foreground: 23 100% 91%;
+  --success-shade: 120 39% 94%;
+  --muted-foreground: 240 3.8% 46.1%;
+  --accent: 256 36% 37%;
+  --accent-foreground: 267 77% 8%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 23 100% 91%;
+  --border: 267 77% 8%;
+  --border-light: 190 17% 86%;
+  --border-lighter: 310 5% 77%;
+  --input: 267 77% 8%;
+  --ring: 23 98% 58%;
+  --chart-1: 12 76% 61%;
+  --chart-2: 173 58% 39%;
+  --chart-3: 197 37% 24%;
+  --chart-4: 43 74% 66%;
+  --chart-5: 27 87% 67%;
+  --radius: 0.5rem;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  /* Fonts */
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
+  --font-playfair-display: var(--font-playfair-display);
+  --font-quicksand: var(--font-quicksand);
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  /* Core colors */
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  /* Card */
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  /* Popover */
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  /* Primary */
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  /* Secondary */
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-light: hsl(var(--secondary-light));
+  --color-secondary-shade: hsl(var(--secondary-shade));
+  --color-secondary-glass: hsl(var(--secondary-glass));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  /* Tertiary / muted / light */
+  --color-tertiary: hsl(var(--tertiary));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-light: hsl(var(--light));
+  --color-background-light: hsl(var(--background-light));
+
+  /* Specialty foregrounds */
+  --color-brown-foreground: hsl(var(--brown-foreground));
+  --color-gray-foreground: hsl(var(--gray-foreground));
+
+  /* Success */
+  --color-success: hsl(var(--success));
+  --color-success-foreground: hsl(var(--success-foreground));
+  --color-success-shade: hsl(var(--success-shade));
+
+  /* Accent */
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  /* Destructive */
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  /* Border / input / ring */
+  --color-border: hsl(var(--border));
+  --color-border-light: hsl(var(--border-light));
+  --color-border-lighter: hsl(var(--border-lighter));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+
+  /* Charts */
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+
+  /* Radius */
+  --radius: var(--radius);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: hsl(var(--background));
+  color: hsl(var(--foreground));
+}
+
+.font-playfair-display-italic {
+  font-family: var(--font-playfair-display);
+  font-style: italic;
 }
