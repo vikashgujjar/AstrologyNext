@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,6 +14,12 @@ const navLinks = [
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // Lock body scroll when menu is open
+  useEffect(() => {
+    document.body.style.overflow = menuOpen ? "hidden" : "";
+    return () => { document.body.style.overflow = ""; };
+  }, [menuOpen]);
 
   return (
     <div className="bg-background w-full">
@@ -71,7 +77,7 @@ export default function Header() {
               Login
             </button>
             <button
-              onClick={() => setMenuOpen(!menuOpen)}
+              onClick={() => setMenuOpen(true)}
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary hover:text-secondary h-9 text-sm lg:hidden p-2"
               style={{ width: "auto", height: "auto" }}
               aria-label="Open menu"
@@ -96,35 +102,91 @@ export default function Header() {
             </button>
           </div>
         </nav>
-
-        {/* Mobile menu drawer */}
-        {menuOpen && (
-          <div className="lg:hidden bg-background border-t border-foreground/10 px-6 py-4 flex flex-col gap-4">
-            {navLinks.map((link) => (
-              <Link
-                key={link.label}
-                href={link.href}
-                className="text-sm font-medium text-secondary hover:text-primary transition-colors"
-                onClick={() => setMenuOpen(false)}
-              >
-                {link.label}
-              </Link>
-            ))}
-            <div className="flex gap-3 pt-2">
-              <Link href="/connect-with-astrologer" onClick={() => setMenuOpen(false)}>
-                <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-secondary text-white shadow-sm hover:bg-secondary/80 h-9 text-sm">
-                  Chat Now
-                </button>
-              </Link>
-              <Link href="/connect-with-astrologer" onClick={() => setMenuOpen(false)}>
-                <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-secondary text-white shadow-sm hover:bg-secondary/80 h-9 text-sm">
-                  Call Now
-                </button>
-              </Link>
-            </div>
-          </div>
-        )}
       </header>
+
+      {/* Mobile full-screen overlay menu */}
+      {menuOpen && (
+        <div className="fixed inset-0 bg-background z-50 lg:hidden overflow-y-auto">
+          <div className="flex flex-col px-6 py-4 space-y-10">
+
+            {/* Top row: logo + close button */}
+            <div className="flex justify-between items-center mb-8">
+              <Link className="-m-1.5 p-1.5" href="/" onClick={() => setMenuOpen(false)}>
+                <div className="w-20 h-20 relative w-20 h-20">
+                  <Image
+                    alt="PRANA"
+                    fill
+                    decoding="async"
+                    className="object-contain"
+                    src="/prana.svg"
+                    style={{ position: "absolute", height: "100%", width: "100%", inset: 0, color: "transparent" }}
+                  />
+                </div>
+              </Link>
+              <button
+                onClick={() => setMenuOpen(false)}
+                className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary hover:text-secondary h-9 text-sm lg:hidden p-2"
+                aria-label="Close menu"
+                style={{ width: "auto", height: "auto" }}
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="lucide lucide-x"
+                  style={{ width: "24px", height: "24px", minWidth: "24px", minHeight: "24px" }}
+                >
+                  <path d="M18 6 6 18" />
+                  <path d="m6 6 12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Nav links + Book Us */}
+            <div className="flex flex-col space-y-5 items-center" style={{ opacity: 1, transform: "none" }}>
+              <div className="flex flex-col space-y-4 items-center">
+                {navLinks.map((link) => (
+                  <Link
+                    key={link.label}
+                    className="text-lg font-medium text-secondary hover:text-primary"
+                    href={link.href}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    {link.label}
+                  </Link>
+                ))}
+              </div>
+
+              {/* Book Us */}
+              <div className="mt-12 space-y-8 font-quicksand text-primary">
+                <div className="text-center space-y-2">
+                  <div className="flex justify-center">
+                    <Image
+                      alt="Book Us"
+                      loading="lazy"
+                      width={24}
+                      height={24}
+                      decoding="async"
+                      src="/message.svg"
+                      style={{ color: "transparent" }}
+                    />
+                  </div>
+                  <p className="text-lg font-playfair-display text-foreground font-medium">Book Us</p>
+                  <p className="text-xl">varunsharma@pranaindia.com</p>
+                  <p className="text-sm">For support and bookings please contact us anytime.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      )}
     </div>
   );
 }

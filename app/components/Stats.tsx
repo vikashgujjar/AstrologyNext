@@ -7,7 +7,7 @@ const stats = [
 export default function Stats() {
   return (
     <div className="py-6">
-      <div className="flex text-secondary justify-center w-full gap-6 md:gap-20">
+      <div className="flex text-secondary justify-center flex-wrap w-full gap-6 md:gap-20">
         {stats.map((stat) => (
           <div
             key={stat.value}

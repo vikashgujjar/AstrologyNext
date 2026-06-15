@@ -29,7 +29,7 @@ export default function Locations() {
       </h2>
 
       {/* Locations grid */}
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-x-4 gap-y-10 max-w-5xl mx-auto">
+      <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-x-4 gap-y-10 max-w-5xl mx-auto">
         {locations.map((location) => (
           <Link
             key={location.name}
@@ -39,7 +39,7 @@ export default function Locations() {
             {/* Pin shape: circle + downward triangle */}
             <div className="flex flex-col items-center">
               {/* Circular image with thick primary border */}
-              <div className="w-16 h-16 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full border-[6px] sm:border-[7px] border-primary overflow-hidden relative flex-shrink-0 group-hover:border-secondary transition-colors duration-300">
+              <div className="w-25 h-25 sm:w-20 sm:h-20 md:w-24 md:h-24 rounded-full border-[6px] sm:border-[7px] border-primary overflow-hidden relative flex-shrink-0 group-hover:border-secondary transition-colors duration-300">
                 <Image
                   alt={location.name}
                   fill
