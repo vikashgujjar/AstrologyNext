@@ -3,8 +3,8 @@ import Link from "next/link";
 import ContactForm from "../components/ContactForm";
 
 export const metadata = {
-  title: "Contact Us | Astro Sanatana Veer",
-  description: "Get in touch with Astro Sanatana Veer for astrology consultations, Pooja bookings, Vastu guidance, and spiritual support.",
+  title: "Contact Us | Astro Sanatana",
+  description: "Get in touch with Astro Sanatana for astrology consultations, Pooja bookings, Vastu guidance, and spiritual support.",
 };
 
 const contactCards = [
@@ -70,7 +70,7 @@ export default function ContactPage() {
           </div>
           <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-2xl">
             Whether you seek an astrology consultation, a Pooja booking, Vastu guidance, or simply have a
-            question — Astro Sanatana Veer is here to guide you on your spiritual journey.
+            question — Astro Sanatana is here to guide you on your spiritual journey.
           </p>
         </div>
       </div>
@@ -131,7 +131,7 @@ export default function ContactPage() {
             <div className="flex flex-col gap-4 p-6 bg-[#FFF2EB] rounded-2xl md:rounded-3xl border border-[#ffc09d]/40">
               <h3 className="text-foreground text-lg font-semibold font-playfair-display">Follow Us</h3>
               <p className="text-primary font-quicksand font-medium text-sm leading-relaxed">
-                Stay connected with Astro Sanatana Veer for daily horoscopes, spiritual insights, and guidance.
+                Stay connected with Astro Sanatana for daily horoscopes, spiritual insights, and guidance.
               </p>
               <div className="flex gap-3 items-center">
                 <Link href="https://www.facebook.com/ptchandrashekar" className="p-2.5 bg-foreground rounded-full text-white hover:bg-foreground/80 transition-colors">

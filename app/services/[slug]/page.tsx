@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const service = getServiceBySlug(slug);
   if (!service) return {};
   return {
-    title: `${service.label} | Astro Sanatana Veer`,
+    title: `${service.label} | Astro Sanatana`,
     description: service.description[0].slice(0, 160),
   };
 }
@@ -137,7 +137,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <div className="flex flex-col gap-4 p-6 bg-[#FFF2EB] rounded-2xl md:rounded-3xl border border-[#ffc09d]/40">
               <h3 className="text-foreground text-lg font-semibold font-playfair-display">Book a Consultation</h3>
               <p className="text-primary font-quicksand font-medium text-sm leading-relaxed">
-                Get expert guidance for <span className="text-secondary font-semibold">{service.label}</span> from Astro Sanatana Veer — available in-person and online worldwide.
+                Get expert guidance for <span className="text-secondary font-semibold">{service.label}</span> from Astro Sanatana — available in-person and online worldwide.
               </p>
               <Link
                 href="https://wa.me/14169314409"
@@ -230,7 +230,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
           <span className="text-foreground font-playfair-display-italic">spiritual journey?</span>
         </h2>
         <p className="text-secondary font-quicksand font-medium text-sm md:text-base max-w-lg">
-          Connect with Astro Sanatana Veer today for a personalised {service.label} consultation — in-person or online.
+          Connect with Astro Sanatana today for a personalised {service.label} consultation — in-person or online.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
           <Link

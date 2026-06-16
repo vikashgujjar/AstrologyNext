@@ -3,8 +3,8 @@ import Link from "next/link";
 import FaqAccordion from "../components/FaqAccordion";
 
 export const metadata = {
-  title: "FAQs | Astro Sanatana Veer",
-  description: "Answers to the most common questions about Vedic astrology, Jyotish, Vastu, Pooja services, and consultations with Astro Sanatana Veer.",
+  title: "FAQs | Astro Sanatana",
+  description: "Answers to the most common questions about Vedic astrology, Jyotish, Vastu, Pooja services, and consultations with Astro Sanatana.",
 };
 
 export default function FaqPage() {
@@ -31,7 +31,7 @@ export default function FaqPage() {
             </h1>
           </div>
           <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-2xl">
-            Everything you need to know about Vedic astrology, our services, and how Astro Sanatana Veer
+            Everything you need to know about Vedic astrology, our services, and how Astro Sanatana
             can guide you on your spiritual journey.
           </p>
         </div>
@@ -80,7 +80,7 @@ export default function FaqPage() {
               </div>
               <h3 className="text-foreground text-lg font-semibold font-playfair-display">Book a Consultation</h3>
               <p className="text-primary font-quicksand font-medium text-sm leading-relaxed">
-                Ready to begin your journey? Book a personal session with Astro Sanatana Veer today — available in-person and online.
+                Ready to begin your journey? Book a personal session with Astro Sanatana today — available in-person and online.
               </p>
               <Link
                 href="https://wa.me/14169314409"

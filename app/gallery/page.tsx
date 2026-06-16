@@ -3,8 +3,8 @@ import Link from "next/link";
 import ConnectNow from "../components/ConnectNow";
 
 export const metadata = {
-  title: "Gallery | Astro Sanatana Veer",
-  description: "Explore the gallery of Astro Sanatana Veer — cherished moments with clients, celebrities, and spiritual events from around the world.",
+  title: "Gallery | Astro Sanatana",
+  description: "Explore the gallery of Astro Sanatana — cherished moments with clients, celebrities, and spiritual events from around the world.",
 };
 
 const highlights = [
@@ -16,15 +16,15 @@ const highlights = [
 
 const celebrityImages = [
   { src: "/carouselsImg/Gallery1.webp", alt: "Client: Mumbai Indians", span: "col-span-1 row-span-2" },
-  { src: "/carouselsImg/Gallery2.webp", alt: "Astro Sanatana Veer with Sonu Nigam", span: "col-span-1 row-span-1" },
-  { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=800&q=80", alt: "Astro Sanatana Veer at Ambani Wedding", span: "col-span-1 row-span-1" },
-  { src: "/carouselsImg/Gallery3.webp", alt: "Astro Sanatana Veer Astrologers with MS Dhoni", span: "col-span-2 row-span-1" },
+  { src: "/carouselsImg/Gallery2.webp", alt: "Astro Sanatana with Sonu Nigam", span: "col-span-1 row-span-1" },
+  { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=800&q=80", alt: "Astro Sanatana at Ambani Wedding", span: "col-span-1 row-span-1" },
+  { src: "/carouselsImg/Gallery3.webp", alt: "Astro Sanatana Astrologers with MS Dhoni", span: "col-span-2 row-span-1" },
 ];
 
 const teamImages = [
   { src: "/carouselsImg/Gallery4.webp", alt: "Spiritual Consultation", span: "col-span-2 row-span-1" },
   { src: "/carouselsImg/Gallery5.webp", alt: "Sacred Wedding Ceremony", span: "col-span-1 row-span-2" },
-  { src: "/carouselsImg/Gallery6.webp", alt: "Astro Sanatana Veer Team", span: "col-span-1 row-span-1" },
+  { src: "/carouselsImg/Gallery6.webp", alt: "Astro Sanatana Team", span: "col-span-1 row-span-1" },
   { src: "/carouselsImg/Gallery2.webp", alt: "Client Consultation", span: "col-span-1 row-span-1" },
 ];
 
@@ -53,7 +53,7 @@ export default function GalleryPage() {
           </div>
           <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-2xl">
             From sacred ceremonies and celebrity consultations to global events and personal milestones —
-            these are the moments that define Astro Sanatana Veer&apos;s legacy.
+            these are the moments that define Astro Sanatana&apos;s legacy.
           </p>
         </div>
       </div>
@@ -141,7 +141,7 @@ export default function GalleryPage() {
           <div>
             <h3 className="text-foreground text-xl font-semibold font-playfair-display">Want to be part of our story?</h3>
             <p className="text-primary font-quicksand font-medium text-sm mt-1">
-              Book a consultation and let Astro Sanatana Veer guide your journey.
+              Book a consultation and let Astro Sanatana guide your journey.
             </p>
           </div>
           <div className="flex gap-3 shrink-0">

@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Terms & Conditions | Astro Sanatana Veer",
-  description: "Read the Terms and Conditions governing the use of Astro Sanatana Veer's astrology consultation, Pooja, and Vastu services.",
+  title: "Terms & Conditions | Astro Sanatana",
+  description: "Read the Terms and Conditions governing the use of Astro Sanatana's astrology consultation, Pooja, and Vastu services.",
 };
 
 const sections = [
@@ -11,7 +11,7 @@ const sections = [
     id: "acceptance",
     title: "1. Acceptance of Terms",
     content: [
-      "By accessing or using the services of Astro Sanatana Veer — including our website, consultations, Pooja bookings, Vastu assessments, and any other spiritual or astrological services — you agree to be bound by these Terms and Conditions.",
+      "By accessing or using the services of Astro Sanatana — including our website, consultations, Pooja bookings, Vastu assessments, and any other spiritual or astrological services — you agree to be bound by these Terms and Conditions.",
       "If you do not agree with any part of these terms, please do not use our services. These terms apply to all visitors, clients, and users of our platform.",
     ],
   },
@@ -19,7 +19,7 @@ const sections = [
     id: "services",
     title: "2. Description of Services",
     content: [
-      "Astro Sanatana Veer provides a range of spiritual and astrological services including, but not limited to: Vedic Astrology (Jyotish) consultations, Kundli (birth chart) analysis, Vastu Shastra assessments, sacred Pooja rituals, Wedding Muhurat selection, Gemstone recommendations, Palm Reading, Tarot Reading, and personalised spiritual remedies.",
+      "Astro Sanatana provides a range of spiritual and astrological services including, but not limited to: Vedic Astrology (Jyotish) consultations, Kundli (birth chart) analysis, Vastu Shastra assessments, sacred Pooja rituals, Wedding Muhurat selection, Gemstone recommendations, Palm Reading, Tarot Reading, and personalised spiritual remedies.",
       "All services are provided for spiritual guidance and personal insight purposes only. They are not a substitute for professional medical, legal, financial, or psychological advice.",
     ],
   },
@@ -28,7 +28,7 @@ const sections = [
     title: "3. Consultations & Bookings",
     content: [
       "Consultations may be booked via phone, email, WhatsApp, or through our contact form. All bookings are subject to availability and confirmation by our team.",
-      "Clients are required to provide accurate birth details (date, time, and place of birth) for accurate Vedic astrology readings. Astro Sanatana Veer is not responsible for inaccurate guidance resulting from incorrect information provided by the client.",
+      "Clients are required to provide accurate birth details (date, time, and place of birth) for accurate Vedic astrology readings. Astro Sanatana is not responsible for inaccurate guidance resulting from incorrect information provided by the client.",
       "Consultations are available in-person at our Etobicoke, Canada office, and online via phone or video call for international clients.",
     ],
   },
@@ -54,7 +54,7 @@ const sections = [
     id: "disclaimer",
     title: "6. Disclaimer — Nature of Astrological Services",
     content: [
-      "Vedic astrology and all services provided by Astro Sanatana Veer are intended for spiritual guidance, personal reflection, and general life insight. They are not guaranteed predictions of future events.",
+      "Vedic astrology and all services provided by Astro Sanatana are intended for spiritual guidance, personal reflection, and general life insight. They are not guaranteed predictions of future events.",
       "Results and interpretations are based on classical Vedic principles and the professional experience of our astrologers. Individual outcomes may vary. We make no warranties, expressed or implied, regarding the accuracy, completeness, or applicability of any reading or remedy to your specific situation.",
       "Our services are not a replacement for qualified medical, psychiatric, legal, or financial professional advice. Clients should exercise their own judgment and consult appropriate professionals for critical life decisions.",
     ],
@@ -63,15 +63,15 @@ const sections = [
     id: "intellectual-property",
     title: "7. Intellectual Property",
     content: [
-      "All content on the Astro Sanatana Veer website and materials — including text, images, graphics, logos, and consultation reports — is the intellectual property of Astro Sanatana Veer and is protected by applicable copyright laws.",
-      "You may not reproduce, distribute, republish, or commercially exploit any content without prior written permission from Astro Sanatana Veer.",
+      "All content on the Astro Sanatana website and materials — including text, images, graphics, logos, and consultation reports — is the intellectual property of Astro Sanatana and is protected by applicable copyright laws.",
+      "You may not reproduce, distribute, republish, or commercially exploit any content without prior written permission from Astro Sanatana.",
     ],
   },
   {
     id: "client-conduct",
     title: "8. Client Conduct",
     content: [
-      "Clients agree to treat our astrologers and staff with respect and dignity at all times. Astro Sanatana Veer reserves the right to refuse or terminate services to any client who behaves in an abusive, threatening, or disrespectful manner.",
+      "Clients agree to treat our astrologers and staff with respect and dignity at all times. Astro Sanatana reserves the right to refuse or terminate services to any client who behaves in an abusive, threatening, or disrespectful manner.",
       "Clients must not misrepresent their identity or provide false information during bookings or consultations.",
     ],
   },
@@ -79,7 +79,7 @@ const sections = [
     id: "liability",
     title: "9. Limitation of Liability",
     content: [
-      "To the fullest extent permitted by law, Astro Sanatana Veer, its founders, astrologers, and staff shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use of our services or reliance on any guidance, reading, or remedy provided.",
+      "To the fullest extent permitted by law, Astro Sanatana, its founders, astrologers, and staff shall not be liable for any direct, indirect, incidental, special, or consequential damages arising from the use of our services or reliance on any guidance, reading, or remedy provided.",
       "Our total liability to any client for any claim arising from our services shall not exceed the amount paid for the specific service in question.",
     ],
   },
@@ -101,7 +101,7 @@ const sections = [
     id: "changes",
     title: "12. Changes to These Terms",
     content: [
-      "Astro Sanatana Veer reserves the right to update or modify these Terms and Conditions at any time without prior notice. Continued use of our services after any changes constitutes your acceptance of the revised terms.",
+      "Astro Sanatana reserves the right to update or modify these Terms and Conditions at any time without prior notice. Continued use of our services after any changes constitutes your acceptance of the revised terms.",
       "We encourage you to review this page periodically. This document was last updated on June 16, 2025.",
     ],
   },
@@ -131,7 +131,7 @@ export default function TermsPage() {
             </h1>
           </div>
           <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed max-w-2xl">
-            Please read these terms carefully before using any services offered by Astro Sanatana Veer.
+            Please read these terms carefully before using any services offered by Astro Sanatana.
             Last updated: <span className="text-foreground font-semibold">June 16, 2025</span>
           </p>
         </div>

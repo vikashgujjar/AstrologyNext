@@ -6,8 +6,8 @@ import GalleryCarousel from "../components/GalleryCarousel";
 import ConnectNow from "../components/ConnectNow";
 
 export const metadata = {
-  title: "About Us | Astro Sanatana Veer",
-  description: "Meet Astro Sanatana Veer — a lineage of Vedic astrologers with 50+ years of experience guiding over 1 million clients across 30+ countries through Jyotish, Vastu, and sacred Pooja rituals.",
+  title: "About Us | Astro Sanatana",
+  description: "Meet Astro Sanatana — a lineage of Vedic astrologers with 50+ years of experience guiding over 1 million clients across 30+ countries through Jyotish, Vastu, and sacred Pooja rituals.",
 };
 
 export default function AboutPage() {
@@ -21,7 +21,7 @@ export default function AboutPage() {
           {/* Image with peach frame */}
           <div className="relative p-1 md:p-3 bg-[#ffc09d] rounded-xl md:rounded-3xl max-w-4xl mx-auto w-full">
             <Image
-              alt="Astro Sanatana Veer with MS Dhoni"
+              alt="Astro Sanatana with MS Dhoni"
               loading="lazy"
               width={1000}
               height={600}
@@ -84,7 +84,7 @@ export default function AboutPage() {
               <span className="text-secondary">meets your modern life</span>
             </h2>
             <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-4xl">
-              Astro Sanatana Veer is home to the world&apos;s most trusted Vedic astrologers and Jyotish experts.
+              Astro Sanatana is home to the world&apos;s most trusted Vedic astrologers and Jyotish experts.
               With over 50 years of combined experience, we have guided more than 1 million clients across 30+ countries —
               helping families, leaders, and celebrities find clarity, harmony, and purpose through the timeless
               science of Jyotish.
@@ -109,14 +109,14 @@ export default function AboutPage() {
           />
           <div className="flex flex-col md:items-center gap-6 px-4 py-8 md:py-12 pb-0! md:text-center">
             <h2 className="text-3xl md:text-4xl font-medium font-playfair-display leading-tight max-w-4xl">
-              <span className="text-foreground font-playfair-display-italic">Astro Sanatana Veer — </span>
+              <span className="text-foreground font-playfair-display-italic">Astro Sanatana — </span>
               <br />
               <span className="text-secondary">A Legacy of Vedic Wisdom</span>
             </h2>
             <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-4xl">
-              Astro Sanatana Veer&apos;s journey into the sacred science of Jyotish is rooted in a deep family
+              Astro Sanatana&apos;s journey into the sacred science of Jyotish is rooted in a deep family
               lineage of Vedic knowledge passed down through generations. Guided by ancient scriptures and an
-              unwavering devotion to truth, Astro Sanatana Veer dedicated his life to mastering every dimension
+              unwavering devotion to truth, Astro Sanatana dedicated his life to mastering every dimension
               of Vedic astrology — from Jyotish and Vastu to sacred Pooja rituals. His relentless pursuit of
               authentic knowledge and compassionate counsel have made him a trusted spiritual guide to some of
               the world&apos;s most celebrated families, celebrities, and business leaders.

@@ -17,7 +17,7 @@ export const services: Service[] = [
     tagline: "Break Free from Dark Energies",
     description: [
       "Black magic, also known as Kala Jadoo or Abhichara in Vedic tradition, is the deliberate use of negative supernatural forces to harm, control, or destroy an individual's life, health, relationships, or prosperity. Its effects can be subtle at first — unexplained illness, sudden financial loss, broken relationships — but can intensify over time if left unaddressed.",
-      "At Astro Sanatana Veer, we use ancient Vedic rituals, powerful Mantras, protective Yantras, and Tantra-based remedies to identify, neutralise, and permanently remove black magic from your life. Our approach is rooted in centuries-old Sanatana Dharma practices, performed with complete sanctity and spiritual precision.",
+      "At Astro Sanatana, we use ancient Vedic rituals, powerful Mantras, protective Yantras, and Tantra-based remedies to identify, neutralise, and permanently remove black magic from your life. Our approach is rooted in centuries-old Sanatana Dharma practices, performed with complete sanctity and spiritual precision.",
     ],
     whatWeOffer: [
       "Identification of black magic through Kundli and psychic analysis",
@@ -47,7 +47,7 @@ export const services: Service[] = [
     tagline: "Rekindle the Love You Lost",
     description: [
       "Losing a relationship that meant everything to you is one of life's most painful experiences. Whether it ended due to misunderstandings, external interference, family pressure, or emotional distance, Vedic astrology and spiritual remedies offer powerful pathways to rekindle lost love.",
-      "Astro Sanatana Veer specialises in ancient Vashikaran Mantras, love-related Pujas, and astrological remedies that help align energies, dissolve barriers, and restore the emotional connection between two people — guided by dharmic principles and with your highest well-being in mind.",
+      "Astro Sanatana specialises in ancient Vashikaran Mantras, love-related Pujas, and astrological remedies that help align energies, dissolve barriers, and restore the emotional connection between two people — guided by dharmic principles and with your highest well-being in mind.",
     ],
     whatWeOffer: [
       "Birth chart analysis of both partners for compatibility and obstacles",
@@ -77,7 +77,7 @@ export const services: Service[] = [
     tagline: "Cleanse, Protect & Restore Peace",
     description: [
       "Evil spirits, negative entities, and supernatural disturbances — known in Vedic tradition as Preta Badha, Bhoot Badha, or Graha Pida — can attach themselves to individuals or homes, causing persistent distress, confusion, sleep disorders, and unexplained misfortune.",
-      "Astro Sanatana Veer performs ancient Vedic Shanti Pujas, Navagraha rituals, and protective ceremonies to identify and remove these negative presences and restore peace, clarity, and spiritual safety to your life and home.",
+      "Astro Sanatana performs ancient Vedic Shanti Pujas, Navagraha rituals, and protective ceremonies to identify and remove these negative presences and restore peace, clarity, and spiritual safety to your life and home.",
     ],
     whatWeOffer: [
       "Diagnosis of supernatural disturbances through Jyotish analysis",
@@ -107,7 +107,7 @@ export const services: Service[] = [
     tagline: "Your Destiny Is Written in Your Hands",
     description: [
       "Palm reading, known as Hasta-Samudrika Shastra in ancient Indian tradition, is one of the most profound and personalised forms of divination. The lines, mounts, shapes, and patterns of your palm carry a unique map of your life — revealing insights about your character, career, relationships, health, and spiritual path.",
-      "At Astro Sanatana Veer, our palm reading sessions combine classical Indian Samudrika Shastra with intuitive spiritual insight, offering you a detailed and compassionate reading of your life's blueprint — both what has been and what lies ahead.",
+      "At Astro Sanatana, our palm reading sessions combine classical Indian Samudrika Shastra with intuitive spiritual insight, offering you a detailed and compassionate reading of your life's blueprint — both what has been and what lies ahead.",
     ],
     whatWeOffer: [
       "Analysis of all major lines — Life, Head, Heart, Fate, and Sun",
@@ -137,7 +137,7 @@ export const services: Service[] = [
     tagline: "Restore Harmony & Positive Vibrations",
     description: [
       "Negative energy can accumulate in our lives through jealousy, envy (Nazar or Evil Eye), conflicts, grief, past traumas, or simply from the environments we inhabit. This invisible weight can manifest as persistent fatigue, emotional heaviness, recurring bad luck, health problems, or a general sense that something is holding you back.",
-      "Astro Sanatana Veer offers powerful Vedic rituals, Nazar Dosha remedies, space cleansing ceremonies, and personalised Mantra practices to dissolve negative energy at its root and restore bright, positive vibrations in your life, home, and relationships.",
+      "Astro Sanatana offers powerful Vedic rituals, Nazar Dosha remedies, space cleansing ceremonies, and personalised Mantra practices to dissolve negative energy at its root and restore bright, positive vibrations in your life, home, and relationships.",
     ],
     whatWeOffer: [
       "Nazar Dosha (Evil Eye) identification and removal",
@@ -166,7 +166,7 @@ export const services: Service[] = [
     image: "/AstrologyImg/PsychicReadings.jpg",
     tagline: "Clarity Beyond the Visible World",
     description: [
-      "Psychic readings tap into the subtle, non-physical dimensions of reality to offer guidance that goes beyond what conventional analysis can provide. At Astro Sanatana Veer, our psychic readings are rooted in Vedic spirituality and combine clairvoyant insight with astrological wisdom to give you a holistic understanding of your situation.",
+      "Psychic readings tap into the subtle, non-physical dimensions of reality to offer guidance that goes beyond what conventional analysis can provide. At Astro Sanatana, our psychic readings are rooted in Vedic spirituality and combine clairvoyant insight with astrological wisdom to give you a holistic understanding of your situation.",
       "Whether you are seeking clarity about a relationship, a career decision, a health concern, or a spiritual crossroads, our psychic readings provide intuitive guidance drawn from years of spiritual practice and divine connection.",
     ],
     whatWeOffer: [
@@ -197,7 +197,7 @@ export const services: Service[] = [
     tagline: "Sacred Vedic Rituals for Love & Attraction",
     description: [
       "In Vedic tradition, love spells are not mere superstition — they are sacred rituals rooted in the science of Tantra, Mantra, and Yantra, designed to align universal energies with your deepest intentions for love, attraction, and togetherness. When performed with purity of intention and proper knowledge, these rituals can powerfully influence the flow of love in your life.",
-      "At Astro Sanatana Veer, our love spell ceremonies are conducted with full dharmic integrity — using ancient Vedic Kamdev Mantras, sacred offerings, and spiritual practices to attract love, strengthen bonds, and bring desired partners closer.",
+      "At Astro Sanatana, our love spell ceremonies are conducted with full dharmic integrity — using ancient Vedic Kamdev Mantras, sacred offerings, and spiritual practices to attract love, strengthen bonds, and bring desired partners closer.",
     ],
     whatWeOffer: [
       "Kamdev and Rati Mantra rituals for love attraction",
@@ -227,7 +227,7 @@ export const services: Service[] = [
     tagline: "Astrological Remedies for Health & Vitality",
     description: [
       "In Vedic astrology, physical and mental health are deeply connected to planetary influences in your birth chart. Malefic planets, doshas, and afflicted houses can predispose individuals to specific health challenges. By understanding these cosmic patterns, we can address health issues at their energetic root — complementing conventional medical treatment with powerful spiritual remedies.",
-      "Astro Sanatana Veer provides astrological health analysis, healing Pujas, Gemstone recommendations, and Mantra therapies that help restore balance, vitality, and well-being. We never replace medical advice — we enhance your healing journey from a spiritual dimension.",
+      "Astro Sanatana provides astrological health analysis, healing Pujas, Gemstone recommendations, and Mantra therapies that help restore balance, vitality, and well-being. We never replace medical advice — we enhance your healing journey from a spiritual dimension.",
     ],
     whatWeOffer: [
       "Health astrology — analysis of the 6th, 8th, and 12th houses",
@@ -257,7 +257,7 @@ export const services: Service[] = [
     tagline: "Heal, Harmonise & Rebuild Connections",
     description: [
       "Relationships are the most treasured and yet most challenging aspect of human life. Conflicts, trust issues, communication breakdowns, compatibility gaps, or external interference can cause immense pain in our closest bonds. Vedic astrology offers profound insight into the karmic dynamics between individuals and provides powerful remedies to heal and harmonise relationships.",
-      "At Astro Sanatana Veer, we analyse the Kundli compatibility (Guna Milan and Navamsa charts) of both partners, identify planetary causes of friction, and prescribe targeted Mantras, Pujas, and practical guidance to restore harmony in your relationships.",
+      "At Astro Sanatana, we analyse the Kundli compatibility (Guna Milan and Navamsa charts) of both partners, identify planetary causes of friction, and prescribe targeted Mantras, Pujas, and practical guidance to restore harmony in your relationships.",
     ],
     whatWeOffer: [
       "Detailed compatibility analysis (Ashtkoot and Navamsa)",
@@ -287,7 +287,7 @@ export const services: Service[] = [
     tagline: "Align Body, Mind & Soul",
     description: [
       "Spiritual healing is the process of restoring balance and harmony to the subtle energy body — the Pranamaya Kosha — which directly influences our physical health, emotional state, mental clarity, and spiritual progress. When our life force energy (Prana) is blocked, depleted, or distorted, we experience illness, confusion, lack of purpose, and disconnection from our higher self.",
-      "Astro Sanatana Veer offers authentic Vedic spiritual healing sessions that combine Pranic healing principles, chakra alignment, Mantra therapy, and personalised Vedic rituals to cleanse and restore your entire energetic system — leaving you feeling renewed, centred, and aligned with your dharmic path.",
+      "Astro Sanatana offers authentic Vedic spiritual healing sessions that combine Pranic healing principles, chakra alignment, Mantra therapy, and personalised Vedic rituals to cleanse and restore your entire energetic system — leaving you feeling renewed, centred, and aligned with your dharmic path.",
     ],
     whatWeOffer: [
       "Chakra assessment and energy centre balancing",
@@ -317,7 +317,7 @@ export const services: Service[] = [
     tagline: "Unlock Your Lucky Numbers & Auspicious Timing",
     description: [
       "Wealth, luck, and financial abundance are written in the stars. In Vedic astrology, the 2nd house (accumulated wealth), 5th house (speculation and luck), 8th house (sudden gains), and 11th house (income and gains) — along with the planets Jupiter (wealth), Venus (luxury), and the Moon (fluctuations) — all play a role in your financial destiny and luck quotient.",
-      "At Astro Sanatana Veer, we analyse your Kundli to identify your luckiest numbers, colours, days, and periods (Mahadasha and Antardasha) and provide Vedic remedies to enhance your luck and attract financial abundance — including specific guidance for lotteries, investments, and speculative activities.",
+      "At Astro Sanatana, we analyse your Kundli to identify your luckiest numbers, colours, days, and periods (Mahadasha and Antardasha) and provide Vedic remedies to enhance your luck and attract financial abundance — including specific guidance for lotteries, investments, and speculative activities.",
     ],
     whatWeOffer: [
       "Lucky number identification from Numerology and Vedic astrology",
@@ -347,7 +347,7 @@ export const services: Service[] = [
     tagline: "Vedic Guidance for Career & Business Growth",
     description: [
       "Career setbacks, job loss, stagnant business growth, financial losses, workplace conflicts, and partnership disputes are often reflected in specific planetary patterns in your birth chart. Saturn (career and discipline), the 10th house (profession), Mercury (business), and Jupiter (growth and expansion) all play crucial roles in your professional destiny.",
-      "Astro Sanatana Veer provides comprehensive career and business astrology — identifying the root causes of professional obstacles, recommending powerful Vedic remedies, and guiding you with Vastu corrections and auspicious timing to unlock career growth and business success.",
+      "Astro Sanatana provides comprehensive career and business astrology — identifying the root causes of professional obstacles, recommending powerful Vedic remedies, and guiding you with Vastu corrections and auspicious timing to unlock career growth and business success.",
     ],
     whatWeOffer: [
       "Career astrology — 10th house and Saturn analysis",

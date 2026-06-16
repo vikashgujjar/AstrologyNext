@@ -21,7 +21,7 @@ export default function ContactForm() {
         </div>
         <h3 className="text-2xl font-medium font-playfair-display text-secondary">Message Sent!</h3>
         <p className="text-primary font-quicksand font-medium max-w-sm">
-          Thank you for reaching out. Astro Sanatana Veer will get back to you shortly.
+          Thank you for reaching out. Astro Sanatana will get back to you shortly.
         </p>
       </div>
     );

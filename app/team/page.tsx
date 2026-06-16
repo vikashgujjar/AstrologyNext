@@ -6,8 +6,8 @@ import TeamGalleryCarousel from "../components/TeamGalleryCarousel";
 import ConnectNow from "../components/ConnectNow";
 
 export const metadata = {
-  title: "Our Team | Astro Sanatana Veer",
-  description: "Meet the dedicated team of Vedic astrologers, Jyotish experts, and spiritual guides at Astro Sanatana Veer.",
+  title: "Our Team | Astro Sanatana",
+  description: "Meet the dedicated team of Vedic astrologers, Jyotish experts, and spiritual guides at Astro Sanatana.",
 };
 
 const values = [
@@ -63,7 +63,7 @@ export default function TeamPage() {
               <span className="text-foreground font-playfair-display-italic">team</span>
               <span className="text-secondary"> behind</span>
               <br />
-              <span className="text-secondary">Astro Sanatana Veer</span>
+              <span className="text-secondary">Astro Sanatana</span>
             </h1>
           </div>
           <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-2xl">

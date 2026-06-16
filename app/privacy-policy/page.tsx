@@ -2,8 +2,8 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Privacy Policy | Astro Sanatana Veer",
-  description: "Learn how Astro Sanatana Veer collects, uses, and protects your personal information when you use our astrology and spiritual services.",
+  title: "Privacy Policy | Astro Sanatana",
+  description: "Learn how Astro Sanatana collects, uses, and protects your personal information when you use our astrology and spiritual services.",
 };
 
 const sections = [
@@ -11,7 +11,7 @@ const sections = [
     id: "introduction",
     title: "1. Introduction",
     content: [
-      "Astro Sanatana Veer ('we', 'our', or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit our website, contact us, or use any of our astrology, Pooja, Vastu, or spiritual consultation services.",
+      "Astro Sanatana ('we', 'our', or 'us') is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your personal information when you visit our website, contact us, or use any of our astrology, Pooja, Vastu, or spiritual consultation services.",
       "By using our services, you agree to the collection and use of information in accordance with this policy. If you do not agree, please discontinue use of our services.",
     ],
   },
@@ -116,7 +116,7 @@ const sections = [
     title: "12. Contact Us",
     content: [
       "If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us:",
-      "Astro Sanatana Veer\n1123 Albion Rd Ground Floor, Etobicoke, ON M9V 1A9, Canada\nPhone: +1 416-931-4409\nEmail: info@astrospiritualistmasteromkar.com",
+      "Astro Sanatana\n1123 Albion Rd Ground Floor, Etobicoke, ON M9V 1A9, Canada\nPhone: +1 416-931-4409\nEmail: info@astrospiritualistmasteromkar.com",
     ],
   },
 ];

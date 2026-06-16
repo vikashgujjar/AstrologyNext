@@ -9,10 +9,10 @@ const faqs = [
   },
   {
     q: "How accurate are astrological predictions?",
-    a: "The accuracy of astrological guidance depends on the precision of your birth details — date, exact time, and place of birth. Astro Sanatana Veer uses classical Vedic techniques refined over decades of practice to provide deeply personalised insights. While astrology does not determine a fixed fate, it reveals the energies at play and guides you toward making better decisions.",
+    a: "The accuracy of astrological guidance depends on the precision of your birth details — date, exact time, and place of birth. Astro Sanatana uses classical Vedic techniques refined over decades of practice to provide deeply personalised insights. While astrology does not determine a fixed fate, it reveals the energies at play and guides you toward making better decisions.",
   },
   {
-    q: "What services does Astro Sanatana Veer offer?",
+    q: "What services does Astro Sanatana offer?",
     a: "We offer a wide range of spiritual and astrological services including Vedic Astrology consultations, Kundli (birth chart) analysis, Vastu Shastra for homes and offices, sacred Pooja rituals, Wedding Muhurat selection, Gemstone recommendations, Palm Reading, Tarot Reading, and personalised remedies for life challenges such as health, relationships, finances, and career.",
   },
   {
@@ -21,7 +21,7 @@ const faqs = [
   },
   {
     q: "What is a Kundli (birth chart)?",
-    a: "A Kundli is your personal astrological birth chart — a precise map of the planetary positions at the exact moment of your birth. It is the foundation of all Vedic astrology readings and reveals your personality, life path, health, relationships, career potential, and karmic influences. Astro Sanatana Veer analyses your Kundli in depth to provide meaningful and actionable guidance.",
+    a: "A Kundli is your personal astrological birth chart — a precise map of the planetary positions at the exact moment of your birth. It is the foundation of all Vedic astrology readings and reveals your personality, life path, health, relationships, career potential, and karmic influences. Astro Sanatana analyses your Kundli in depth to provide meaningful and actionable guidance.",
   },
   {
     q: "What is Vastu Shastra?",
@@ -29,18 +29,18 @@ const faqs = [
   },
   {
     q: "Do you offer online consultations?",
-    a: "Yes. Astro Sanatana Veer serves clients across 30+ countries and offers online consultations via phone or video call. Whether you are in Canada, India, the USA, the UK, or anywhere in the world, you can access our guidance from the comfort of your home.",
+    a: "Yes. Astro Sanatana serves clients across 30+ countries and offers online consultations via phone or video call. Whether you are in Canada, India, the USA, the UK, or anywhere in the world, you can access our guidance from the comfort of your home.",
   },
   {
     q: "How long does a consultation typically last?",
-    a: "A standard consultation is typically 45 to 60 minutes. During this time, Astro Sanatana Veer will review your birth chart, address your specific concerns, and provide personalised remedies and guidance. For complex matters requiring deeper analysis, extended sessions of up to 90 minutes are available.",
+    a: "A standard consultation is typically 45 to 60 minutes. During this time, Astro Sanatana will review your birth chart, address your specific concerns, and provide personalised remedies and guidance. For complex matters requiring deeper analysis, extended sessions of up to 90 minutes are available.",
   },
   {
     q: "Can astrology help with relationship and marriage problems?",
     a: "Yes. Vedic astrology provides powerful tools for understanding compatibility, resolving conflicts, and finding the right time to marry. Our Kundli matching (Rishta Milan) service analyses 36 gunas to assess compatibility between partners. We also offer remedies for delayed marriage, relationship challenges, and family harmony.",
   },
   {
-    q: "What remedies does Astro Sanatana Veer recommend?",
+    q: "What remedies does Astro Sanatana recommend?",
     a: "Remedies in Vedic astrology are gentle, spiritual, and practical. They may include specific Pooja rituals, mantra recitation, Gemstone recommendations, charitable acts (Dana), fasting on particular days, or Vastu corrections. All remedies are personalised to your birth chart and are intended to harmonise planetary influences — never fear-based.",
   },
 ];

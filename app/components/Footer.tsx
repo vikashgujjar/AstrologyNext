@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
+import { services } from "../data/services";
 
 export default function Footer() {
   return (
+
     <div className="w-full bg-[#FFF2EB]">
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 px-4 py-8 md:px-12 sm:py-12 xl:px-20 xl:py-20">
 
@@ -11,7 +13,7 @@ export default function Footer() {
           <div className="flex flex-col items-start justify-start p-6 md:p-0">
             <div className="md:space-y-2 flex flex-col items-center md:items-start md:flex-col gap-x-5">
               <Image
-                alt="Astro Sanatana Veer"
+                alt="Astro Sanatana"
                 loading="lazy"
                 width={200}
                 height={100}
@@ -50,17 +52,16 @@ export default function Footer() {
         <div className="col-span-1 lg:col-span-2">
           <div className="justify-start items-start gap-[60px] grid grid-cols-2 sm:grid-cols-3">
 
-            {/* Astro Sanatana Veer + Legal */}
+            {/* Astro Sanatana + Legal */}
             <div className="flex-col justify-start items-start gap-10 inline-flex">
               <div className="flex flex-col space-y-4">
                 <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
-                  <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Astro Sanatana Veer</div>
+                  <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Astro Sanatana</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/about">About Us</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/contact">Contact Us</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/faq">FAQs</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/team">Our Team</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/gallery">Gallery</Link>
                 </div>
               </div>
@@ -75,19 +76,18 @@ export default function Footer() {
               </div>
             </div>
 
-            {/* Horoscope */}
+            {/* Services */}
             <div className="flex-col justify-start items-start gap-10 inline-flex">
               <div className="flex flex-col space-y-4">
                 <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
-                  <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Horoscope</div>
+                  <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Services</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/horoscope">Daily Horoscope</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/horoscope">Weekly Horoscope</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/horoscope">Yearly Horoscope</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/horoscope">Personalised Horoscope</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/horoscope">Lucky Number</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/horoscope">Lucky Color</Link>
+                  {services.map((s) => (
+                    <Link key={s.slug} className="text-primary text-sm font-semibold font-quicksand capitalize leading-5 hover:text-secondary transition-colors" href={`/services/${s.slug}`}>
+                      {s.label}
+                    </Link>
+                  ))}
                 </div>
               </div>
             </div>
@@ -159,15 +159,17 @@ export default function Footer() {
       </div>
 
       {/* Copyright bar */}
-      <div className="h-[42px] w-full py-3 bg-foreground flex-col justify-center items-center gap-2.5 inline-flex">
+      <div className="h-10.5 w-full py-3 bg-foreground flex-col justify-center items-center gap-2.5 inline-flex">
         <div className="justify-center items-center gap-5 inline-flex text-white text-sm font-normal font-quicksand leading-5">
-          <div className="hidden md:block">Terms of service</div>
-          <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div>
-          <div className="hidden md:block">Privacy Policy</div>
-          <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div>
-          <div className="">© Copyright 2026 by Future IT Touch Pvt. Ltd.</div>
+          {/* <div className="hidden md:block">Terms of service</div> */}
+          {/* <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div> */}
+          {/* <div className="hidden md:block">Privacy Policy</div> */}
+          {/* <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div> */}
+          <div className="">© 2026 Astro Sanatana. All rights reserved. | Designed & Developed by Future IT Touch Pvt. Ltd.</div>
         </div>
       </div>
+      
     </div>
+
   );
 }

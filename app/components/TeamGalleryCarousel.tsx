@@ -9,9 +9,9 @@ import "swiper/css";
 
 const SLIDES = [
   { src: "/carouselsImg/Gallery1.webp", alt: "Client: Mumbai Indians" },
-  { src: "/carouselsImg/Gallery2.webp", alt: "Astro Sanatana Veer with Sonu Nigam" },
-  { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=600&q=80", alt: "Astro Sanatana Veer at Ambani Wedding" },
-  { src: "/carouselsImg/Gallery3.webp", alt: "Astro Sanatana Veer Astrologers with MS Dhoni" },
+  { src: "/carouselsImg/Gallery2.webp", alt: "Astro Sanatana with Sonu Nigam" },
+  { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=600&q=80", alt: "Astro Sanatana at Ambani Wedding" },
+  { src: "/carouselsImg/Gallery3.webp", alt: "Astro Sanatana Astrologers with MS Dhoni" },
   { src: "/carouselsImg/Gallery4.webp", alt: "Services" },
   { src: "/carouselsImg/Gallery5.webp", alt: "Wedding" },
 ];
@@ -21,7 +21,7 @@ export default function TeamGalleryCarousel() {
   const swiperRef = useRef<SwiperType | null>(null);
 
   return (
-    <div className="relative w-full gap-6 overflow-hidden p-4 sm:p-10 md:p-14 lg:p-20">
+    <div className="relative w-full gap-6 overflow-hidden p-4 sm:p-10 md:p-14 lg:p-20 pt-0!">
       <div className="w-full mt-6 self-stretch">
         <Swiper
           modules={[Autoplay]}

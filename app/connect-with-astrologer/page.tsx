@@ -4,8 +4,8 @@ import ContactForm from "../components/ContactForm";
 import { services } from "../data/services";
 
 export const metadata = {
-  title: "Connect with Astrologer | Astro Sanatana Veer",
-  description: "Connect with expert astrologers at Astro Sanatana Veer via WhatsApp, phone, or email for personalised Vedic astrology, Kundli, Vastu, and spiritual guidance.",
+  title: "Connect with Astrologer | Astro Sanatana",
+  description: "Connect with expert astrologers at Astro Sanatana via WhatsApp, phone, or email for personalised Vedic astrology, Kundli, Vastu, and spiritual guidance.",
 };
 
 const channels = [
@@ -92,7 +92,7 @@ export default function ConnectWithAstrologerPage() {
             <span className="text-foreground font-playfair-display-italic">Astrologer</span>
           </h1>
           <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed">
-            Seek clarity, guidance, and divine wisdom from the expert astrologers at Astro Sanatana Veer.
+            Seek clarity, guidance, and divine wisdom from the expert astrologers at Astro Sanatana.
             Available in-person at Etobicoke, Canada, and online worldwide.
           </p>
           <div className="flex flex-wrap gap-3 md:justify-center mt-2">
@@ -124,7 +124,7 @@ export default function ConnectWithAstrologerPage() {
           <div className="relative w-full h-full rounded-3xl overflow-hidden">
             <Image
               src="/AstroSanatanaVeer.png"
-              alt="Astro Sanatana Veer"
+              alt="Astro Sanatana"
               width={1000}
               height={1000}
               className="object-cover object-top rounded-3xl"
@@ -215,7 +215,7 @@ export default function ConnectWithAstrologerPage() {
             <span className="text-foreground font-playfair-display-italic">works</span>
           </h2>
           <p className="text-secondary font-quicksand font-medium text-sm md:text-base mt-2">
-            Getting guidance from Astro Sanatana Veer is simple — three easy steps.
+            Getting guidance from Astro Sanatana is simple — three easy steps.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -324,7 +324,7 @@ export default function ConnectWithAstrologerPage() {
           <span className="text-foreground font-playfair-display-italic">stars</span>
         </h2>
         <p className="text-secondary font-quicksand font-medium text-sm md:text-base max-w-lg">
-          Let Astro Sanatana Veer help you understand your path. Reach out today and take the first step towards clarity and purpose.
+          Let Astro Sanatana help you understand your path. Reach out today and take the first step towards clarity and purpose.
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
           <Link
