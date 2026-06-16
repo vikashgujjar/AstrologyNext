@@ -3,7 +3,7 @@ import Image from "next/image";
 const companies = [
   { src: "/image.png", alt: "DNA" },
   { src: "/AajTak.png", alt: "Aaj Tak" },
-  { src: "/Netflix.png", alt: "Netfilx" },
+  { src: "/Netflix.png", alt: "Netflix" },
   { src: "/colors.png", alt: "Hotstar" },
   { src: "/mensxp.png", alt: "Men XP" },
   { src: "/wsj.png", alt: "Wall Street Journal" },

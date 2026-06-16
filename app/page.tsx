@@ -11,7 +11,8 @@ import HonorableFeatures from "./components/HonorableFeatures";
 
 export default function Home() {
   return (
-    <main className="flex flex-col flex-1">
+    <main className="flex flex-col flex-1 mt-8 md:mt-16 ">
+      <div className="px-5 sm:px-8 md:px-12 lg:px-20 pb-5"></div>
       <Banner />
       <ConnectCards />
       <GalleryCarousel />
@@ -21,7 +22,7 @@ export default function Home() {
       <Stats />
       <ConnectNow />
       <Locations />
-      <HonorableFeatures />
+      {/* <HonorableFeatures /> */}
     </main>
   );
 }

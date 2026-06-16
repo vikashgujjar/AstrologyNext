@@ -1,5 +1,5 @@
 const stats = [
-  { value: "50 years", label: "Of Combined Industry Experience" },
+  { value: "50+ Years", label: "Of Combined Industry Experience" },
   { value: "1M+ Clients", label: "Enlightened and Guided" },
   { value: "30+ Countries", label: "Served Worldwide" },
 ];

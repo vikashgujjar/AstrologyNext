@@ -24,7 +24,7 @@ export default function Header() {
   return (
     <div className="bg-background w-full">
       <header
-        className="font-playfair-display fixed top-0 right-0 left-0 shadow-sm lg:shadow-none z-40"
+        className="font-playfair-display relative top-0 right-0 left-0 shadow-sm lg:shadow-none z-40"
         style={{ opacity: 1, transform: "none" }}
       >
         <nav className="mx-auto flex bg-background items-center justify-between px-6 py-2 md:py-4">
@@ -38,7 +38,7 @@ export default function Header() {
                   fill
                   decoding="async"
                   className="object-contain"
-                  src="/prana.svg"
+                  src="/logo.png"
                   style={{ position: "absolute", height: "100%", width: "100%", left: 0, top: 0, right: 0, bottom: 0, color: "transparent" }}
                 />
               </div>
@@ -56,9 +56,9 @@ export default function Header() {
 
           {/* Desktop CTA buttons */}
           <div className="lg:gap-x-4  justify-center hidden lg:flex flex-row items-center">
-            <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-foreground text-white shadow-sm hover:bg-foreground/80 h-9 text-sm">
+            {/* <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-foreground text-white shadow-sm hover:bg-foreground/80 h-9 text-sm">
               Login
-            </button>
+            </button> */}
             <Link href="/connect-with-astrologer">
               <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-secondary text-white shadow-sm hover:bg-secondary/80 h-9 text-sm">
                 Chat Now
@@ -73,9 +73,9 @@ export default function Header() {
 
           {/* Mobile: Login + Hamburger */}
           <div className="lg:hidden flex items-center gap-2">
-            <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-foreground text-white shadow-sm hover:bg-foreground/80 h-9 text-sm">
+            {/* <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-foreground text-white shadow-sm hover:bg-foreground/80 h-9 text-sm">
               Login
-            </button>
+            </button> */}
             <button
               onClick={() => setMenuOpen(true)}
               className="inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-full font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 text-primary hover:text-secondary h-9 text-sm lg:hidden p-2"
@@ -118,7 +118,7 @@ export default function Header() {
                     fill
                     decoding="async"
                     className="object-contain"
-                    src="/prana.svg"
+                    src="/logo.png"
                     style={{ position: "absolute", height: "100%", width: "100%", inset: 0, color: "transparent" }}
                   />
                 </div>

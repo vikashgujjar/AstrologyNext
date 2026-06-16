@@ -2,18 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 
 const services = [
-  { label: "Black Magic Removal", image: "/AstrologyImg/BlackMagicRemoval.jpg" },
-  { label: "Get Your Ex Love Back", image: "/AstrologyImg/GetYourExLoveBack.jpg" },
-  { label: "Evil Spirit Removal", image: "/AstrologyImg/EvilSpiritRemoval.jpg" },
-  { label: "Palm Reading", image: "/AstrologyImg/PalmReading.jpg" },
-  { label: "Negative Energy Removal", image: "/AstrologyImg/NegativeEnergyRemoval.jpg" },
-  { label: "Psychic Readings", image: "/AstrologyImg/PsychicReadings.jpg" },
-  { label: "Love Spell Caster", image: "/AstrologyImg/LoveSpell.jpg" },
-  { label: "Health Problems", image: "/AstrologyImg/HealthProblems.jpg" },
-  { label: "Relationship Problems", image: "/AstrologyImg/RelationshipProblems.jpg" },
-  { label: "Spiritual Healing", image: "/AstrologyImg/SpiritualHealing.jpg" },
-  { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg" },
-  { label: "Job & Business Problems", image: "/AstrologyImg/JobBusinessProblems.jpg" },
+  { label: "Black Magic Removal", image: "/AstrologyImg/BlackMagicRemoval.jpg", slug: "black-magic-removal" },
+  { label: "Get Your Ex Love Back", image: "/AstrologyImg/GetYourExLoveBack.jpg", slug: "get-your-ex-love-back" },
+  { label: "Evil Spirit Removal", image: "/AstrologyImg/EvilSpiritRemoval.jpg", slug: "evil-spirit-removal" },
+  { label: "Palm Reading", image: "/AstrologyImg/PalmReading.jpg", slug: "palm-reading" },
+  { label: "Negative Energy Removal", image: "/AstrologyImg/NegativeEnergyRemoval.jpg", slug: "negative-energy-removal" },
+  { label: "Psychic Readings", image: "/AstrologyImg/PsychicReadings.jpg", slug: "psychic-readings" },
+  { label: "Love Spell Caster", image: "/AstrologyImg/LoveSpell.jpg", slug: "love-spell-caster" },
+  { label: "Health Problems", image: "/AstrologyImg/HealthProblems.jpg", slug: "health-problems" },
+  { label: "Relationship Problems", image: "/AstrologyImg/RelationshipProblems.jpg", slug: "relationship-problems" },
+  { label: "Spiritual Healing", image: "/AstrologyImg/SpiritualHealing.jpg", slug: "spiritual-healing" },
+  { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg", slug: "win-lotto" },
+  { label: "Job & Business Problems", image: "/AstrologyImg/JobBusinessProblems.jpg", slug: "job-business-problems" },
 ];
 
 export default function Solutions() {
@@ -33,7 +33,7 @@ export default function Solutions() {
         {services.map((service) => (
           <Link
             key={service.label}
-            href="/connect-with-astrologer"
+            href={`/services/${service.slug}`}
             className="flex flex-col items-center gap-3 group cursor-pointer"
           >
             {/* Circular image */}

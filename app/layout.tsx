@@ -38,12 +38,11 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} ${quicksand.variable} h-full antialiased overflow-x-hidden w-full flex-1`}
+      className={`${geistSans.variable} ${geistMono.variable} ${playfairDisplay.variable} ${quicksand.variable} h-full antialiased overflow-x-hidden w-full flex-1 scroll-smooth`}
     >
       <body className="min-h-full flex flex-col overflow-x-hidden w-full flex-1">
         <Header />
-        <div className="mt-28 md:mt-36 overflow-x-hidden w-full flex-1">
-          <div className="px-5 sm:px-8 md:px-12 lg:px-20 pb-5"></div>
+        <div className="overflow-x-hidden w-full flex-1">
           {children}
         </div>
         <Footer />

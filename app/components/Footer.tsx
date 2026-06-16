@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Brand + Social */}
         <div className="col-span-1">
           <div className="flex flex-col items-start justify-start p-6 md:p-0">
-            <div className="md:space-y-2 flex flex-row items-center md:items-start  md:flex-col gap-x-5">
+            <div className="md:space-y-2 flex flex-row items-center md:items-start md:flex-col gap-x-5">
               <Image
                 alt="Astro Sanatana Veer"
                 loading="lazy"
@@ -17,10 +17,10 @@ export default function Footer() {
                 height={100}
                 decoding="async"
                 style={{ color: "transparent" }}
-                src="/prana.svg"
+                src="/logo.png"
               />
-              <p className="text-md font-medium text-primary">
-                We are astrologers and priest trained by Astro Sanatana Veer the worlds most trusted astrologer.
+              <p className="text-md font-medium text-primary mt-6">
+                Expert Vedic astrologers and spiritual guides bringing ancient wisdom, clarity, and healing to every soul we serve.
               </p>
             </div>
             <div className="pt-6 flex  gap-4 items-center justify-center md:justify-start w-full">
@@ -59,7 +59,7 @@ export default function Footer() {
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/about">About Us</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/contact">Contact Us</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/">FAQs</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/faq">FAQs</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/team">Our Team</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/gallery">Gallery</Link>
                 </div>
@@ -71,10 +71,6 @@ export default function Footer() {
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/terms-and-conditions">Terms &amp; Conditions</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/privacy-policy">Privacy Policy</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/pricing-policy">Pricing Policy</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/cancellation">Cancellation Policy</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/shipping-policy">Shipping Policy</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/faq">FAQ</Link>
                 </div>
               </div>
             </div>
@@ -103,7 +99,9 @@ export default function Footer() {
                   <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Astrology</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="https://wa.me/916363018663">Chat With Astrologer</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/connect-with-astrologer">Connect with Astrologer</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="https://wa.me/14169314409" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="tel:+14169314409">Call Now</Link>
                 </div>
               </div>
               <div className="flex flex-col space-y-4">
@@ -147,8 +145,8 @@ export default function Footer() {
                 <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Book Us</div>
               </div>
               <div className="flex flex-col gap-2">
-                <div className="text-primary text-xl font-normal font-quicksand leading-5">info@astrospiritualistmasteromkar.com</div>
-                <div className="text-primary text-xl font-normal font-quicksand leading-5">+1 416-931-4409</div>
+                <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-primary text-sm font-normal font-quicksand leading-5 hover:text-secondary transition-colors break-all">info@astrospiritualistmasteromkar.com</Link>
+                <Link href="tel:+14169314409" className="text-primary text-xl font-normal font-quicksand leading-5 hover:text-secondary transition-colors">+1 416-931-4409</Link>
                 <div className="text-primary text-sm font-semibold font-quicksand capitalize leading-5">
                   For support and bookings please contact us anytime.
                 </div>
@@ -167,7 +165,7 @@ export default function Footer() {
           <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div>
           <div className="hidden md:block">Privacy Policy</div>
           <div className="hidden md:blockw-1 h-1 bg-white rounded-full"></div>
-          <div className="">© Copyright 2024 by Future IT Touch Pvt. Ltd.</div>
+          <div className="">© Copyright 2026 by Future IT Touch Pvt. Ltd.</div>
         </div>
       </div>
     </div>
