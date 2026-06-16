@@ -9,7 +9,7 @@ export default function Footer() {
         {/* Brand + Social */}
         <div className="col-span-1">
           <div className="flex flex-col items-start justify-start p-6 md:p-0">
-            <div className="md:space-y-2 flex flex-row items-center md:items-start md:flex-col gap-x-5">
+            <div className="md:space-y-2 flex flex-col items-center md:items-start md:flex-col gap-x-5">
               <Image
                 alt="Astro Sanatana Veer"
                 loading="lazy"
