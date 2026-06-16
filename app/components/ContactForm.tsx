@@ -1,30 +1,49 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
+import Swal from "sweetalert2";
 
 export default function ContactForm() {
-  const [submitted, setSubmitted] = useState(false);
+  const [loader, setLoader] = useState(false);
+  const router = useRouter();
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    setSubmitted(true);
-  }
+    setLoader(true);
 
-  if (submitted) {
-    return (
-      <div className="flex flex-col items-center justify-center gap-4 py-16 text-center">
-        <div className="w-16 h-16 rounded-full bg-secondary/10 flex items-center justify-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" />
-            <path d="m9 11 3 3L22 4" />
-          </svg>
-        </div>
-        <h3 className="text-2xl font-medium font-playfair-display text-secondary">Message Sent!</h3>
-        <p className="text-primary font-quicksand font-medium max-w-sm">
-          Thank you for reaching out. Astro Sanatana will get back to you shortly.
-        </p>
-      </div>
-    );
+    const formData = new FormData(e.currentTarget);
+    const data = Object.fromEntries(formData.entries());
+
+    const payload = {
+      company: "Astro Sanatana",
+      company_name: "Astro Sanatana",
+      name: data.name as string,
+      phone: data.phone as string,
+      email: (data.email as string) || "N/A",
+      serviceType: (data.subject as string) || "General Inquiry",
+      message: data.message as string,
+      mail_to: "www.vgujjar1234@gmail.com",
+    };
+
+    try {
+      const response = await fetch("https://mail.futuretouch.org/api/send-message", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(payload),
+      });
+
+      if (response.ok) {
+        router.push("/thank-you");
+      } else {
+        Swal.fire("Error", "Failed to send message. Please try again.", "error");
+      }
+    } catch (error) {
+      console.error(error);
+      Swal.fire("Error", "Something went wrong!", "error");
+    } finally {
+      setLoader(false);
+    }
   }
 
   return (
@@ -67,18 +86,21 @@ export default function ContactForm() {
       </div>
 
       <div className="flex flex-col gap-1.5">
-        <label htmlFor="subject" className="text-primary font-quicksand font-semibold text-sm">Subject</label>
+        <label htmlFor="subject" className="text-primary font-quicksand font-semibold text-sm">Service</label>
         <select
           id="subject"
           name="subject"
           className="w-full border border-primary/20 bg-background rounded-xl px-4 py-3 font-quicksand text-sm text-primary focus:outline-none focus:ring-1 focus:ring-secondary transition-shadow"
         >
           <option value="">Select a service</option>
-          <option value="astrology">Astrology Consultation</option>
-          <option value="pooja">Pooja Booking</option>
-          <option value="vastu">Vastu Consultation</option>
-          <option value="wedding">Wedding Muhurat</option>
-          <option value="other">Other</option>
+          <option value="Astrology Consultation">Astrology Consultation</option>
+          <option value="Kundli Reading">Kundli Reading</option>
+          <option value="Vastu Consultation">Vastu Consultation</option>
+          <option value="Black Magic Removal">Black Magic Removal</option>
+          <option value="Love & Relationship">Love &amp; Relationship</option>
+          <option value="Spiritual Healing">Spiritual Healing</option>
+          <option value="Pooja Booking">Pooja Booking</option>
+          <option value="Other">Other</option>
         </select>
       </div>
 
@@ -96,13 +118,25 @@ export default function ContactForm() {
 
       <button
         type="submit"
-        className="inline-flex items-center justify-center gap-2 bg-secondary text-white font-quicksand font-medium rounded-full px-10 py-4 hover:bg-secondary/80 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring w-full md:w-auto md:self-start"
+        disabled={loader}
+        className="inline-flex items-center justify-center gap-2 bg-secondary text-white font-quicksand font-medium rounded-full px-10 py-4 hover:bg-secondary/80 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring w-full md:w-auto md:self-start disabled:opacity-70 disabled:cursor-not-allowed"
       >
-        Send Message
-        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-          <path d="m22 2-7 20-4-9-9-4Z" />
-          <path d="M22 2 11 13" />
-        </svg>
+        {loader ? (
+          <>
+            <svg className="animate-spin" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M21 12a9 9 0 1 1-6.219-8.56" />
+            </svg>
+            Sending…
+          </>
+        ) : (
+          <>
+            Send Message
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <path d="m22 2-7 20-4-9-9-4Z" />
+              <path d="M22 2 11 13" />
+            </svg>
+          </>
+        )}
       </button>
     </form>
   );
