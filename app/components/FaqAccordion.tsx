@@ -60,7 +60,7 @@ export default function FaqAccordion() {
             <span className={`font-playfair-display font-medium text-base md:text-lg leading-snug transition-colors ${open === i ? "text-foreground" : "text-primary"}`}>
               {faq.q}
             </span>
-            <span className={`flex-shrink-0 w-6 h-6 rounded-full flex items-center justify-center transition-all duration-300 ${open === i ? "bg-secondary text-white rotate-45" : "bg-[#ffc09d]/40 text-secondary"}`}>
+            <span className={`shrink-0 w-6 h-6 rounded-full flex items-center justify-center transition-all duration-300 ${open === i ? "bg-secondary text-white rotate-45" : "bg-[#ffc09d]/40 text-secondary"}`}>
               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                 <path d="M12 5v14M5 12h14" />
               </svg>

@@ -15,7 +15,7 @@ export default function AboutPage() {
     <main className="flex flex-col flex-1">
 
       {/* Hero */}
-      <div className="bg-background p-4 !pb-0 sm:p-10 md:p-14 overflow-hidden lg:p-20">
+      <div className="bg-background p-4 pb-0! sm:p-10 md:p-14 overflow-hidden lg:p-20">
         <div className="flex flex-col items-center gap-8">
 
           {/* Image with peach frame */}
@@ -26,7 +26,7 @@ export default function AboutPage() {
               width={1000}
               height={600}
               decoding="async"
-              className="rounded-xl w-full h-64 md:h-[420px] object-cover md:rounded-3xl"
+              className="rounded-xl w-full h-64 md:h-105 object-cover md:rounded-3xl"
               src="/carouselsImg/Gallery3.webp"
             />
 
