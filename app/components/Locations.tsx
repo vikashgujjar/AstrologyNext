@@ -14,6 +14,12 @@ const locations = [
   { name: "California", image: "https://images.unsplash.com/photo-1449034446853-66c86144b0ad?w=400&q=80" },
   { name: "Jacksonville", image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=400&q=80" },
   { name: "Baltimore", image: "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&q=80" },
+  { name: "Chicago", image: "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?w=400&q=80" },
+  { name: "Seattle", image: "https://images.unsplash.com/photo-1502175353174-a7a70e73b362?w=400&q=80" },
+  { name: "Virginia", image: "https://images.unsplash.com/photo-1578301978018-3005759f48f7?w=400&q=80" },
+  { name: "Atlanta", image: "https://images.unsplash.com/photo-1575917649705-5b59aaa12e6b?w=400&q=80" },
+  { name: "San Diego", image: "https://images.unsplash.com/photo-1519954352454-2d5a7353e277?w=400&q=80" },
+  { name: "Los Angeles", image: "https://images.unsplash.com/photo-1444723121867-7a241cacace9?w=400&q=80" },
 ];
 
 export default function Locations() {

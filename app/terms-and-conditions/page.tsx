@@ -29,7 +29,7 @@ const sections = [
     content: [
       "Consultations may be booked via phone, email, WhatsApp, or through our contact form. All bookings are subject to availability and confirmation by our team.",
       "Clients are required to provide accurate birth details (date, time, and place of birth) for accurate Vedic astrology readings. Astro Sanatana is not responsible for inaccurate guidance resulting from incorrect information provided by the client.",
-      "Consultations are available in-person at our Etobicoke, Canada office, and online via phone or video call for international clients.",
+      "Consultations are available in-person at our Union City, CA office, and online via phone or video call for international clients.",
     ],
   },
   {

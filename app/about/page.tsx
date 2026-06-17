@@ -203,7 +203,7 @@ export default function AboutPage() {
               <span className="text-foreground text-xl font-medium font-playfair-display">Address</span>
             </div>
             <p className="text-primary text-sm font-semibold font-quicksand leading-6">
-              1123 Albion Rd Ground floor,<br />Etobicoke, ON M9V 1A9, Canada
+              2175 Decoto Rd,<br />Union City, CA 94587, United States
             </p>
           </div>
 

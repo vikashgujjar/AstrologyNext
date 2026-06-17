@@ -15,8 +15,8 @@ export default function Footer() {
               <Image
                 alt="Astro Sanatana"
                 loading="lazy"
-                width={200}
-                height={100}
+                width={150}
+                height={150}
                 decoding="async"
                 style={{ color: "transparent" }}
                 src="/logo.png"
@@ -50,12 +50,12 @@ export default function Footer() {
 
         {/* Nav links */}
         <div className="col-span-1 lg:col-span-2">
-          <div className="justify-start items-start gap-[60px] grid grid-cols-2 sm:grid-cols-3">
+          <div className="justify-start items-start gap-15 grid grid-cols-2 sm:grid-cols-3">
 
             {/* Astro Sanatana + Legal */}
             <div className="flex-col justify-start items-start gap-10 inline-flex">
               <div className="flex flex-col space-y-4">
-                <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
+                <div className="h-6.5 justify-start items-center gap-2.5 inline-flex">
                   <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Astro Sanatana</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
@@ -66,7 +66,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex flex-col space-y-4">
-                <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
+                <div className="h-6.5 justify-start items-center gap-2.5 inline-flex">
                   <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Legal</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
@@ -79,7 +79,7 @@ export default function Footer() {
             {/* Services */}
             <div className="flex-col justify-start items-start gap-10 inline-flex">
               <div className="flex flex-col space-y-4">
-                <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
+                <div className="h-6.5 justify-start items-center gap-2.5 inline-flex">
                   <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Services</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
@@ -95,7 +95,7 @@ export default function Footer() {
             {/* Astrology */}
             <div className="flex-col justify-start items-start gap-10 inline-flex">
               <div className="flex flex-col space-y-4">
-                <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
+                <div className="h-6.5 justify-start items-center gap-2.5 inline-flex">
                   <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Astrology</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
@@ -105,7 +105,7 @@ export default function Footer() {
                 </div>
               </div>
               <div className="flex flex-col space-y-4">
-                <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
+                <div className="h-6.5 justify-start items-center gap-2.5 inline-flex">
                   <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed"></div>
                 </div>
               </div>
@@ -119,7 +119,7 @@ export default function Footer() {
           <div className="flex-col justify-start items-start gap-10 inline-flex">
 
             <div className="flex flex-col space-y-4">
-              <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
+              <div className="h-6.5 justify-start items-center gap-2.5 inline-flex">
                 <div className="w-5 h-5 justify-center items-center flex">
                   <div className="w-5 h-5 text-foreground">
                     <Image alt="Global" loading="lazy" width={20} height={20} decoding="async" className="w-5 h-5" style={{ color: "transparent" }} src="/global.svg" />
@@ -130,13 +130,13 @@ export default function Footer() {
               <div className="flex flex-col gap-2">
                 <div className="text-primary text-xl font-normal font-quicksand leading-5"></div>
                 <div className="text-primary text-sm font-semibold font-quicksand capitalize leading-5">
-                  1123 Albion Rd Ground floor, Etobicoke, ON M9V 1A9, Canada
+                  2175 Decoto Rd, Union City, CA 94587, United States
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col space-y-4">
-              <div className="h-[26px] justify-start items-center gap-2.5 inline-flex">
+              <div className="h-6.5 justify-start items-center gap-2.5 inline-flex">
                 <div className="w-5 h-5 justify-center items-center flex">
                   <div className="w-5 h-5 text-foreground">
                     <Image alt="Message" loading="lazy" width={20} height={20} decoding="async" className="w-5 h-5" style={{ color: "transparent" }} src="/message.svg" />

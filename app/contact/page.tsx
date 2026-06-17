@@ -16,8 +16,8 @@ const contactCards = [
       </svg>
     ),
     title: "Our Address",
-    lines: ["1123 Albion Rd Ground Floor,", "Etobicoke, ON M9V 1A9, Canada"],
-    href: "https://maps.google.com/?q=1123+Albion+Rd+Etobicoke+ON",
+    lines: ["2175 Decoto Rd,", "Union City, CA 94587, United States"],
+    href: "https://maps.google.com/?q=2175+Decoto+Rd+Union+City+CA+94587",
     cta: "Get Directions",
   },
   {

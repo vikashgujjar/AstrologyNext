@@ -93,7 +93,7 @@ export default function ConnectWithAstrologerPage() {
           </h1>
           <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed">
             Seek clarity, guidance, and divine wisdom from the expert astrologers at Astro Sanatana.
-            Available in-person at Etobicoke, Canada, and online worldwide.
+            Available in Union City, California United States & Online Worldwide.
           </p>
           <div className="flex flex-wrap gap-3 md:justify-center mt-2">
             <Link
@@ -198,7 +198,7 @@ export default function ConnectWithAstrologerPage() {
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-500"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/10 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-foreground/70 via-foreground/10 to-transparent" />
               <div className="absolute bottom-0 left-0 right-0 p-3 md:p-4">
                 <p className="text-white font-quicksand font-semibold text-xs md:text-sm leading-snug">{s.label}</p>
               </div>
@@ -264,11 +264,11 @@ export default function ConnectWithAstrologerPage() {
                   </svg>
                 </div>
                 <div>
-                  <p className="text-foreground font-quicksand font-semibold text-sm">Etobicoke, Canada</p>
+                  <p className="text-foreground font-quicksand font-semibold text-sm">Union City, United States</p>
                   <p className="text-primary font-quicksand font-medium text-sm leading-relaxed mt-0.5">
-                    1123 Albion Rd Ground Floor,<br />Etobicoke, ON M9V 1A9
+                    2175 Decoto Rd,<br />Union City, CA 94587
                   </p>
-                  <Link href="https://maps.google.com/?q=1123+Albion+Rd+Etobicoke+ON" target="_blank" rel="noopener noreferrer" className="text-secondary font-quicksand font-semibold text-xs mt-1.5 inline-flex items-center gap-1 hover:text-secondary/70 transition-colors">
+                  <Link href="https://maps.google.com/?q=2175+Decoto+Rd+Union+City+CA+94587" target="_blank" rel="noopener noreferrer" className="text-secondary font-quicksand font-semibold text-xs mt-1.5 inline-flex items-center gap-1 hover:text-secondary/70 transition-colors">
                     Get Directions
                     <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />

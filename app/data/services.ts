@@ -118,7 +118,7 @@ export const services: Service[] = [
       "Combined palm + Kundli reading for maximum accuracy",
     ],
     howItWorks: [
-      { title: "Share Your Palm", desc: "Visit us in Etobicoke or share clear photographs of both palms (front and back) for online sessions." },
+      { title: "Share Your Palm", desc: "Visit us in Union City, CA or share clear photographs of both palms (front and back) for online sessions." },
       { title: "In-Depth Analysis", desc: "Our expert reads all major and minor lines, mounts, and marks using classical Samudrika Shastra principles." },
       { title: "Detailed Report", desc: "Receive a comprehensive reading covering career, love, health, luck, and personalised guidance for your life path." },
     ],

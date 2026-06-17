@@ -44,7 +44,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex">
             <Link className="-m-1.5 p-1.5" href="/">
-              <div className="w-40 h-20 relative">
+              <div className="w-35 h-35 relative">
                 <Image
                   alt="Astro Sanatana Veer"
                   fill

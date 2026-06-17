@@ -17,7 +17,7 @@ const faqs = [
   },
   {
     q: "How can I book a consultation?",
-    a: "You can book a consultation by calling us at +1 416-931-4409, emailing us at info@astrospiritualistmasteromkar.com, or by chatting with us directly on WhatsApp. Our team will help you schedule a session at your convenience, either in-person at our Etobicoke office or online via video call.",
+    a: "You can book a consultation by calling us at +1 416-931-4409, emailing us at info@astrospiritualistmasteromkar.com, or by chatting with us directly on WhatsApp. Our team will help you schedule a session at your convenience, either in-person at our Union City, CA office or online via video call.",
   },
   {
     q: "What is a Kundli (birth chart)?",

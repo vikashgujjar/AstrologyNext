@@ -165,7 +165,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             <div className="flex flex-col gap-3 p-6 bg-[#FFF2EB] rounded-2xl md:rounded-3xl border border-[#ffc09d]/40">
               <h3 className="text-foreground text-base font-semibold font-playfair-display">Visit Us</h3>
               <p className="text-primary font-quicksand font-medium text-xs leading-relaxed">
-                1123 Albion Rd Ground Floor,<br />Etobicoke, ON M9V 1A9, Canada
+                2175 Decoto Rd,<br />Union City, CA 94587, United States
               </p>
               <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
                 info@astrospiritualistmasteromkar.com
