@@ -64,6 +64,10 @@ export default function GalleryCarousel() {
                 />
               ))}
             </div>
+
+            <p className="text-center text-muted-foreground text-sm sm:text-base mt-6 max-w-2xl mx-auto leading-relaxed">
+              Trusted by celebrities, sports legends, and families across the world — Astro Sanatana brings ancient Vedic wisdom to every life journey.
+            </p>
           </div>
         </div>
       </div>
