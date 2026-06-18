@@ -8,11 +8,36 @@ import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 
 const SLIDES = [
-  { src: "/carouselsImg/1.webp", alt: "Client: Mumbai Indians" },
-  { src: "/carouselsImg/2.webp", alt: "Astro Sanatana with Sonu Nigam" },
-  { src: "/carouselsImg/3.webp", alt: "Astro Sanatana Astrologers with MS Dhoni" },
-  { src: "/carouselsImg/4.webp", alt: "Services" },
-  { src: "/carouselsImg/5.webp", alt: "Wedding" },
+  {
+    src: "/carouselsImg/1.webp",
+    alt: "Client: Mumbai Indians",
+    title: "Mumbai Indians",
+    description: "Proudly serving the Mumbai Indians family with sacred guidance and astrological blessings.",
+  },
+  {
+    src: "/carouselsImg/2.webp",
+    alt: "Astro Sanatana with Sonu Nigam",
+    title: "With Sonu Nigam",
+    description: "Astro Sanatana honored to share wisdom and blessings with renowned singer Sonu Nigam.",
+  },
+  {
+    src: "/carouselsImg/3.webp",
+    alt: "Astro Sanatana Astrologers with MS Dhoni",
+    title: "With MS Dhoni",
+    description: "Guiding cricket legend MS Dhoni with Vedic astrology, Vastu, and spiritual counsel.",
+  },
+  {
+    src: "/carouselsImg/4.webp",
+    alt: "Services",
+    title: "Our Sacred Services",
+    description: "From kundali readings to black magic removal — holistic Vedic solutions for every life challenge.",
+  },
+  {
+    src: "/carouselsImg/5.webp",
+    alt: "Wedding",
+    title: "Auspicious Weddings",
+    description: "Ensuring divine alignment for your most important day through Vedic wedding astrology.",
+  },
 ];
 
 export default function GalleryCarousel() {
@@ -47,6 +72,10 @@ export default function GalleryCarousel() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                       src={slide.src}
                     />
+                    <div className="absolute bottom-0 left-0 right-0 rounded-b-3xl bg-linear-to-t from-black/75 via-black/40 to-transparent px-5 pb-5 pt-10">
+                      <p className="text-white font-semibold text-base leading-tight">{slide.title}</p>
+                      <p className="text-white/80 text-sm mt-1 leading-snug">{slide.description}</p>
+                    </div>
                   </div>
                 </SwiperSlide>
               ))}
@@ -64,10 +93,6 @@ export default function GalleryCarousel() {
                 />
               ))}
             </div>
-
-            <p className="text-center text-muted-foreground text-sm sm:text-base mt-6 max-w-2xl mx-auto leading-relaxed">
-              Trusted by celebrities, sports legends, and families across the world — Astro Sanatana brings ancient Vedic wisdom to every life journey.
-            </p>
           </div>
         </div>
       </div>

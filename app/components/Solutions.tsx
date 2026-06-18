@@ -12,7 +12,7 @@ const services = [
   { label: "Health Problems", image: "/AstrologyImg/HealthProblems.jpg", slug: "health-problems" },
   { label: "Relationship Problems", image: "/AstrologyImg/RelationshipProblems.jpg", slug: "relationship-problems" },
   { label: "Spiritual Healing", image: "/AstrologyImg/SpiritualHealing.jpg", slug: "spiritual-healing" },
-  { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg", slug: "win-lotto" },
+  // { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg", slug: "win-lotto" },
   { label: "Job & Business Problems", image: "/AstrologyImg/JobBusinessProblems.jpg", slug: "job-business-problems" },
 ];
 
@@ -29,12 +29,12 @@ export default function Solutions() {
       </h2>
 
       {/* Services grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-x-6 gap-y-10 max-w-4xl mx-auto">
+      <div className="flex flex-wrap justify-center gap-x-6 gap-y-10 max-w-4xl mx-auto">
         {services.map((service) => (
           <Link
             key={service.label}
             href={`/services/${service.slug}`}
-            className="flex flex-col items-center gap-3 group cursor-pointer"
+            className="flex flex-col items-center gap-3 group cursor-pointer w-[calc(50%-12px)] sm:w-[calc(33.333%-16px)] md:w-[calc(25%-18px)]"
           >
             {/* Circular image */}
             <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-full overflow-hidden border-[6px] border-[#ffb58a] group-hover:border-secondary transition-colors duration-300 flex-shrink-0">
