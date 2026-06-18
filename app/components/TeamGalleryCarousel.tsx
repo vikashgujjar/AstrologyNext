@@ -8,12 +8,11 @@ import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 
 const SLIDES = [
-  { src: "/carouselsImg/Gallery1.webp", alt: "Client: Mumbai Indians" },
-  { src: "/carouselsImg/Gallery2.webp", alt: "Astro Sanatana with Sonu Nigam" },
-  { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=600&q=80", alt: "Astro Sanatana at Ambani Wedding" },
-  { src: "/carouselsImg/Gallery3.webp", alt: "Astro Sanatana Astrologers with MS Dhoni" },
-  { src: "/carouselsImg/Gallery4.webp", alt: "Services" },
-  { src: "/carouselsImg/Gallery5.webp", alt: "Wedding" },
+  { src: "/carouselsImg/1.webp", alt: "Client: Mumbai Indians" },
+  { src: "/carouselsImg/2.webp", alt: "Astro Sanatana with Sonu Nigam" },
+  { src: "/carouselsImg/3.webp", alt: "Astro Sanatana Astrologers with MS Dhoni" },
+  { src: "/carouselsImg/4.webp", alt: "Services" },
+  { src: "/carouselsImg/5.webp", alt: "Wedding" },
 ];
 
 export default function TeamGalleryCarousel() {

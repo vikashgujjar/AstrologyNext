@@ -25,7 +25,7 @@ export default function Banner() {
             />
           </div>
         </div> */}
-        <Image src="/AstroSanatanaVeer.png" alt="Astro Sanatana" width={1000} height={1000} className="mx-auto w-full h-full rounded-3xl" />
+        <Image src="/AstroSanatanaVeer.webp" alt="Astro Sanatana" width={1000} height={1000} className="mx-auto w-full h-full rounded-3xl" />
       </div>
     </div>
   );

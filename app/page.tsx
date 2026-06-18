@@ -18,7 +18,7 @@ export default function Home() {
       <GalleryCarousel />
       {/* <TeamCarousel /> */}
       <Solutions />
-      <TeamGalleryCarousel />
+      {/* <TeamGalleryCarousel /> */}
       <Stats />
       <ConnectNow />
       <Locations />

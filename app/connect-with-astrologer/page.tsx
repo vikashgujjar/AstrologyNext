@@ -123,7 +123,7 @@ export default function ConnectWithAstrologerPage() {
         <div className="mt-12 md:mt-16 relative max-w-5xl mx-auto">
           <div className="relative w-full h-full rounded-3xl overflow-hidden">
             <Image
-              src="/AstroSanatanaVeer.png"
+              src="/AstroSanatanaVeer.webp"
               alt="Astro Sanatana"
               width={1000}
               height={1000}
