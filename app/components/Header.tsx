@@ -39,12 +39,12 @@ export default function Header() {
         ref={headerRef}
         className="font-playfair-display relative top-0 right-0 left-0 shadow-sm lg:shadow-none z-40"
       >
-        <nav className="mx-auto flex bg-background items-center justify-between px-6 py-2 md:py-4">
+        <nav className="mx-auto flex bg-background items-center justify-between px-4 sm:px-10 md:px-14 lg:px-20 py-2 md:py-4">
 
           {/* Logo */}
           <div className="flex">
             <Link className="-m-1.5 p-1.5" href="/">
-              <div className="w-35 h-35 relative">
+              <div className="w-25 h-25 md:w-35 md:h-35 relative">
                 <Image
                   alt="Astro Sanatana Veer"
                   fill

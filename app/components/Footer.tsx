@@ -6,7 +6,7 @@ export default function Footer() {
   return (
 
     <div className="w-full bg-[#FFF2EB]">
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 px-4 py-8 md:px-12 sm:py-12 xl:px-20 xl:py-20">
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-5 py-8 sm:py-12 px-4 sm:px-10 md:px-14 lg:px-20 xl:py-20">
 
         {/* Brand + Social */}
         <div className="col-span-1">
