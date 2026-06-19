@@ -10,33 +10,33 @@ import "swiper/css";
 const SLIDES = [
   {
     src: "/carouselsImg/1.webp",
-    alt: "Client: Mumbai Indians",
-    title: "Mumbai Indians",
-    description: "Proudly serving the Mumbai Indians family with sacred guidance and astrological blessings.",
+    alt: "Maha Havan & Yajna for Peace and Prosperity",
+    title: "Maha Havan & Yajna for Peace and Prosperity",
+    description: "Traditional fire rituals performed with Vedic mantras and sacred offerings. Havan and Yajna help purify the environment, remove negative energies, attract prosperity, and promote harmony in life.",
   },
   {
     src: "/carouselsImg/2.webp",
-    alt: "Astro Sanatana with Sonu Nigam",
-    title: "With Sonu Nigam",
-    description: "Astro Sanatana honored to share wisdom and blessings with renowned singer Sonu Nigam.",
+    alt: "Traditional Home Puja & Daily Worship",
+    title: "Traditional Home Puja & Daily Worship",
+    description: "Daily worship and devotional practices performed at home create a positive spiritual atmosphere. Regular puja strengthens faith, promotes peace of mind, and invites divine blessings into the household.",
   },
   {
     src: "/carouselsImg/3.webp",
-    alt: "Astro Sanatana Astrologers with MS Dhoni",
-    title: "With MS Dhoni",
-    description: "Guiding cricket legend MS Dhoni with Vedic astrology, Vastu, and spiritual counsel.",
+    alt: "Religious Events, Festivals & Spiritual Celebrations",
+    title: "Religious Events, Festivals & Spiritual Celebrations",
+    description: "Beautifully decorated venues for pujas, festivals, religious ceremonies, and spiritual gatherings. Traditional floral decorations, sacred arrangements, and devotional ambiance create a memorable divine experience.",
   },
   {
     src: "/carouselsImg/4.webp",
-    alt: "Services",
-    title: "Our Sacred Services",
-    description: "From kundali readings to black magic removal — holistic Vedic solutions for every life challenge.",
+    alt: "Sacred Vedic Ritual & Spiritual Blessings",
+    title: "Sacred Vedic Ritual & Spiritual Blessings",
+    description: "Experience authentic Vedic rituals performed by experienced priests according to ancient Hindu traditions. These sacred ceremonies invoke divine blessings for prosperity, success, peace, health, and spiritual well-being.",
   },
   {
     src: "/carouselsImg/5.webp",
-    alt: "Wedding",
-    title: "Auspicious Weddings",
-    description: "Ensuring divine alignment for your most important day through Vedic wedding astrology.",
+    alt: "Divine Temple Gathering & Shiva Worship",
+    title: "Divine Temple Gathering & Shiva Worship",
+    description: "A spiritually enriching gathering of devotees and priests at a sacred Shiva temple. Through collective prayers, meditation, and devotion, participants seek divine grace, positivity, and inner transformation.",
   },
 ];
 
@@ -72,7 +72,7 @@ export default function GalleryCarousel() {
                       sizes="(max-width: 768px) 100vw, 33vw"
                       src={slide.src}
                     />
-                    <div className="absolute bottom-0 left-0 right-0 rounded-b-3xl bg-linear-to-t from-black/75 via-black/40 to-transparent px-5 pb-5 pt-10">
+                    <div className="absolute bottom-0 left-0 right-0 rounded-b-3xl bg-linear-to-t from-black/95 via-black/50 to-transparent px-5 pb-5 pt-10">
                       <p className="text-white font-semibold text-base leading-tight">{slide.title}</p>
                       <p className="text-white/80 text-sm mt-1 leading-snug">{slide.description}</p>
                     </div>

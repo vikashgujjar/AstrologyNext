@@ -8,6 +8,7 @@ import TeamGalleryCarousel from "./components/TeamGalleryCarousel";
 import Stats from "./components/Stats";
 import ConnectNow from "./components/ConnectNow";
 import HonorableFeatures from "./components/HonorableFeatures";
+import CityServices from "./components/CityServices";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       {/* <TeamGalleryCarousel /> */}
       <Stats />
       <ConnectNow />
+      <CityServices />
       <Locations />
       {/* <HonorableFeatures /> */}
     </main>

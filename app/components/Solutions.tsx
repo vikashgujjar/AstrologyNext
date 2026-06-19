@@ -34,23 +34,23 @@ export default function Solutions() {
           <Link
             key={service.label}
             href={`/services/${service.slug}`}
-            className="flex flex-col items-center gap-3 group cursor-pointer w-[calc(50%-12px)] sm:w-[calc(33.333%-16px)] md:w-[calc(25%-18px)]"
+            className="flex flex-col items-center gap-3 group cursor-pointer w-full md:w-[calc(33.333%-16px)] lg:w-[calc(25%-18px)]"
           >
             {/* Circular image */}
-            <div className="relative w-28 h-28 sm:w-32 sm:h-32 md:w-36 md:h-36 rounded-full overflow-hidden border-[6px] border-[#ffb58a] group-hover:border-secondary transition-colors duration-300 flex-shrink-0">
+            <div className="relative w-56 h-56 sm:w-48 sm:h-48 md:w-52 md:h-52 rounded-full overflow-hidden border-[6px] border-[#ffb58a] group-hover:border-secondary transition-colors duration-300 flex-shrink-0">
               <Image
                 alt={service.label}
                 fill
                 loading="lazy"
                 decoding="async"
                 className="object-cover rounded-full"
-                sizes="(max-width: 640px) 112px, (max-width: 768px) 128px, 144px"
+                sizes="(max-width: 640px) 160px, (max-width: 768px) 160px, 176px"
                 src={service.image}
               />
             </div>
 
             {/* Label */}
-            <p className="text-primary font-quicksand font-semibold text-sm md:text-base text-center leading-snug group-hover:text-secondary transition-colors duration-300">
+            <p className="text-primary font-quicksand font-semibold text-base md:text-base text-center leading-snug group-hover:text-secondary transition-colors duration-300">
               {service.label}
             </p>
           </Link>
