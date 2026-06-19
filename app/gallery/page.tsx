@@ -15,18 +15,13 @@ const highlights = [
 ];
 
 const celebrityImages = [
-  { src: "/carouselsImg/Gallery1.webp", alt: "Client: Mumbai Indians", span: "col-span-1 row-span-2" },
-  { src: "/carouselsImg/Gallery2.webp", alt: "Astro Sanatana with Sonu Nigam", span: "col-span-1 row-span-1" },
-  { src: "https://images.unsplash.com/photo-1528319725582-ddc096101511?w=800&q=80", alt: "Astro Sanatana at Ambani Wedding", span: "col-span-1 row-span-1" },
-  { src: "/carouselsImg/Gallery3.webp", alt: "Astro Sanatana Astrologers with MS Dhoni", span: "col-span-2 row-span-1" },
+  { src: "/carouselsImg/1.webp", alt: "Maha Havan & Yajna for Peace and Prosperity", span: "col-span-1 row-span-2" },
+  { src: "/carouselsImg/2.webp", alt: "Traditional Home Puja & Daily Worship", span: "col-span-1 row-span-1" },
+  { src: "/carouselsImg/3.webp", alt: "Religious Events, Festivals & Spiritual Celebrations", span: "col-span-1 row-span-1" },
+  { src: "/carouselsImg/4.webp", alt: "Sacred Vedic Ritual & Spiritual Blessings", span: "col-span-1 row-span-1" },
+  { src: "/carouselsImg/5.webp", alt: "Divine Temple Gathering & Shiva Worship", span: "col-span-1 row-span-1" },
 ];
 
-const teamImages = [
-  { src: "/carouselsImg/Gallery4.webp", alt: "Spiritual Consultation", span: "col-span-2 row-span-1" },
-  { src: "/carouselsImg/Gallery5.webp", alt: "Sacred Wedding Ceremony", span: "col-span-1 row-span-2" },
-  { src: "/carouselsImg/Gallery6.webp", alt: "Astro Sanatana Team", span: "col-span-1 row-span-1" },
-  { src: "/carouselsImg/Gallery2.webp", alt: "Client Consultation", span: "col-span-1 row-span-1" },
-];
 
 export default function GalleryPage() {
   return (
@@ -83,7 +78,7 @@ export default function GalleryPage() {
           Cherished moments with world-renowned personalities and iconic events.
         </p>
         {/* Mobile: simple 2-col equal grid */}
-        <div className="grid grid-cols-2 gap-3 md:hidden">
+        <div className="grid grid-cols-1 gap-3 md:hidden">
           {celebrityImages.map((img) => (
             <div key={img.src} className="relative aspect-square rounded-2xl overflow-hidden">
               <Image src={img.src} alt={img.alt} fill className="object-cover hover:scale-105 transition-transform duration-500" sizes="50vw" />
@@ -93,40 +88,9 @@ export default function GalleryPage() {
           ))}
         </div>
         {/* Desktop: masonry grid */}
-        <div className="hidden md:grid md:grid-cols-3 md:grid-rows-2 gap-3 md:h-120">
+        <div className="hidden md:grid md:grid-cols-3 md:grid-rows-2 gap-3 md:h-160">
           {celebrityImages.map((img) => (
             <div key={img.src} className={`${img.span} relative overflow-hidden rounded-2xl`}>
-              <Image src={img.src} alt={img.alt} fill className="object-cover hover:scale-105 transition-transform duration-500" sizes="33vw" />
-              <div className="absolute inset-0 bg-linear-to-t from-foreground/50 via-transparent to-transparent" />
-              <p className="absolute bottom-3 left-3 right-3 text-white font-quicksand font-semibold text-xs leading-snug">{img.alt}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Team Gallery */}
-      <div className="px-4 sm:px-10 md:px-14 lg:px-20 pt-10 pb-3">
-        <h2 className="text-2xl md:text-3xl font-medium font-playfair-display mb-1">
-          Our <span className="text-foreground font-playfair-display-italic">Team</span>
-          <span className="text-secondary"> in Action</span>
-        </h2>
-        <p className="text-secondary font-quicksand font-medium text-sm md:text-base mb-6">
-          Behind every consultation is a dedicated team committed to your spiritual well-being.
-        </p>
-        {/* Mobile: simple 2-col equal grid */}
-        <div className="grid grid-cols-2 gap-3 md:hidden">
-          {teamImages.map((img) => (
-            <div key={img.src + img.alt} className="relative aspect-square rounded-2xl overflow-hidden">
-              <Image src={img.src} alt={img.alt} fill className="object-cover hover:scale-105 transition-transform duration-500" sizes="50vw" />
-              <div className="absolute inset-0 bg-linear-to-t from-foreground/50 via-transparent to-transparent" />
-              <p className="absolute bottom-2 left-2 right-2 text-white font-quicksand font-semibold text-xs leading-snug">{img.alt}</p>
-            </div>
-          ))}
-        </div>
-        {/* Desktop: masonry grid */}
-        <div className="hidden md:grid md:grid-cols-3 md:grid-rows-2 gap-3 md:h-120">
-          {teamImages.map((img) => (
-            <div key={img.src + img.alt} className={`${img.span} relative overflow-hidden rounded-2xl`}>
               <Image src={img.src} alt={img.alt} fill className="object-cover hover:scale-105 transition-transform duration-500" sizes="33vw" />
               <div className="absolute inset-0 bg-linear-to-t from-foreground/50 via-transparent to-transparent" />
               <p className="absolute bottom-3 left-3 right-3 text-white font-quicksand font-semibold text-xs leading-snug">{img.alt}</p>
