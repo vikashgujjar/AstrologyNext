@@ -14,6 +14,7 @@ const services = [
   { label: "Spiritual Healing", image: "/AstrologyImg/SpiritualHealing.jpg", slug: "spiritual-healing" },
   // { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg", slug: "win-lotto" },
   { label: "Job & Business Problems", image: "/AstrologyImg/JobBusinessProblems.jpg", slug: "job-business-problems" },
+  { label: "Chakra Cleansing",        image: "/AstrologyImg/chakra.jpg",    slug: "chakra-cleansing" },
 ];
 
 export default function Solutions() {

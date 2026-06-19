@@ -3,52 +3,16 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { locations } from "../data/locations";
 
-// 3 rows × 6 cols on desktop
 const INITIAL_VISIBLE = 18;
 
-const locations = [
-  { name: "New York",          image: "/locationsImg/NewYork.webp" },
-  { name: "Florida",           image: "/locationsImg/Florida.webp" },
-  { name: "Georgia",           image: "/locationsImg/Georgia.webp" },
-  { name: "Connecticut",       image: "/locationsImg/Connecticut.webp" },
-  { name: "New Jersey",        image: "/locationsImg/NewJersey.webp" },
-  { name: "Boston",            image: "/locationsImg/Boston.webp" },
-  { name: "Philadelphia",      image: "/locationsImg/Philadelphia.webp" },
-  { name: "Texas",             image: "/locationsImg/Texas.webp" },
-  { name: "Miami",             image: "/locationsImg/Miami.webp" },
-  { name: "California",        image: "/locationsImg/California.webp" },
-  { name: "Jacksonville",      image: "/locationsImg/Jacksonville.webp" },
-  { name: "Baltimore",         image: "/locationsImg/Baltimore.webp" },
-  { name: "Chicago",           image: "/locationsImg/Chicago.webp" },
-  { name: "Seattle",           image: "/locationsImg/Seattle.webp" },
-  { name: "Virginia",          image: "/locationsImg/Virginia.webp" },
-  { name: "Atlanta",           image: "/locationsImg/Atlanta.webp" },
-  { name: "San Diego",         image: "/locationsImg/SanDiego.webp" },
-  { name: "Los Angeles",       image: "/locationsImg/LosAngeles.webp" },
-  { name: "Fresno, CA",        image: "/locationsImg/Fresno.webp" },
-  { name: "Sacramento, CA",    image: "/locationsImg/Sacramento.webp" },
-  { name: "San Jose, CA",      image: "/locationsImg/SanJose.webp" },
-  { name: "Long Beach, CA",    image: "/locationsImg/LongBeach.webp" },
-  { name: "San Francisco, CA", image: "/locationsImg/SanFrancisco.webp" },
-  { name: "Oakland, CA",       image: "/locationsImg/Oakland.webp" },
-  { name: "Irvine, CA",        image: "/locationsImg/Irvine.webp" },
-  { name: "Bakersfield, CA",   image: "/locationsImg/Bakersfield.webp" },
-  { name: "Santa Ana, CA",     image: "/locationsImg/SantaAna.webp" },
-  { name: "Anaheim, CA",       image: "/locationsImg/Anaheim.webp" },
-  { name: "Chula Vista, CA",   image: "/locationsImg/ChulaVista.webp" },
-  { name: "Stockton, CA",      image: "/locationsImg/Stockton.webp" },
-  { name: "Fremont, CA",       image: "/locationsImg/Fremont.webp" },
-  { name: "Riverside, CA",     image: "/locationsImg/Riverside.webp" },
-  { name: "Santa Clarita, CA", image: "/locationsImg/SantaClarita.webp" },
-];
-
-function LocationCard({ location }: { location: { name: string; image: string } }) {
+function LocationCard({ location }: { location: { name: string; image: string; slug: string } }) {
   const [imgError, setImgError] = useState(false);
 
   return (
     <Link
-      href="/connect-with-astrologer"
+      href={`/locations/${location.slug}`}
       className="flex flex-col items-center gap-0 group cursor-pointer"
     >
       <div className="flex flex-col items-center">
@@ -104,7 +68,7 @@ export default function Locations() {
 
       <div className="grid grid-cols-2 sm:grid-cols-4 md:grid-cols-6 gap-x-4 gap-y-10 max-w-5xl mx-auto">
         {visible.map((location) => (
-          <LocationCard key={location.name} location={location} />
+          <LocationCard key={location.slug} location={location} />
         ))}
       </div>
 

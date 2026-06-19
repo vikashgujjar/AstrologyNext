@@ -341,6 +341,37 @@ export const services: Service[] = [
   //   ],
   // },
   {
+    slug: "chakra-cleansing",
+    label: "Chakra Cleansing",
+    image: "/AstrologyImg/chakra.jpg",
+    tagline: "Restore Balance to Your Energy Centres",
+    description: [
+      "The human body contains seven primary chakras — energy centres that govern our physical health, emotional well-being, mental clarity, and spiritual growth. When these energy centres become blocked, imbalanced, or depleted due to stress, trauma, negative energies, or karmic influences, we experience a range of issues including chronic fatigue, anxiety, relationship difficulties, and a deep sense of disconnection.",
+      "At Astro Sanatana, we offer authentic Vedic chakra cleansing sessions that combine ancient Mantra therapy, Yantra activation, Pranic healing techniques, and personalised Puja rituals to open, balance, and energise all seven chakras — helping you restore harmony across every dimension of your life.",
+    ],
+    whatWeOffer: [
+      "Full seven-chakra assessment and imbalance diagnosis",
+      "Beej Mantra therapy for each specific chakra",
+      "Yantra activation and placement for sustained chakra balance",
+      "Pranic and aura cleansing to remove energy blockages",
+      "Guided meditation and Pranayama for chakra activation",
+      "Personalised gemstone and colour therapy recommendations",
+    ],
+    howItWorks: [
+      { title: "Chakra Assessment", desc: "We analyse your birth chart and energy field to identify which chakras are blocked or imbalanced and understand the root cause." },
+      { title: "Cleansing & Activation", desc: "A personalised session using Beej Mantras, Pranic techniques, and sacred rituals is conducted to cleanse, open, and rebalance each affected chakra." },
+      { title: "Maintenance Practice", desc: "You receive a tailored daily practice — Mantras, meditation, and lifestyle guidance — to keep your chakras balanced and your energy flowing freely." },
+    ],
+    benefits: [
+      "Renewed energy, vitality, and physical well-being",
+      "Emotional stability and release of deep-seated stress",
+      "Enhanced mental clarity, focus, and creative flow",
+      "Stronger intuition and spiritual connection",
+      "Improved relationships through balanced heart and throat chakras",
+      "Protection from negative energies and psychic disturbances",
+    ],
+  },
+  {
     slug: "job-business-problems",
     label: "Job & Business Problems",
     image: "/AstrologyImg/JobBusinessProblems.jpg",
