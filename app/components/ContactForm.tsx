@@ -23,7 +23,7 @@ export default function ContactForm() {
       email: (data.email as string) || "N/A",
       serviceType: (data.subject as string) || "General Inquiry",
       message: data.message as string,
-      mail_to: "www.vgujjar1234@gmail.com",
+      mail_to: "astrosanatana.info@gmail.com",
     };
 
     try {

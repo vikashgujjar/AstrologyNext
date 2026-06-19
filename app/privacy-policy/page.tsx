@@ -116,7 +116,7 @@ const sections = [
     title: "12. Contact Us",
     content: [
       "If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us:",
-      "Astro Sanatana\n2175 Decoto Rd, Union City, CA 94587, United States\nPhone: +1 416-931-4409\nEmail: info@astrospiritualistmasteromkar.com",
+      "Astro Sanatana\n2175 Decoto Rd, Union City, CA 94587, United States\nPhone: +1 416-931-4409\nEmail: astrosanatana.info@gmail.com",
     ],
   },
 ];
@@ -195,8 +195,8 @@ export default function PrivacyPolicyPage() {
               <Link href="tel:+14169314409" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors">
                 +1 416-931-4409
               </Link>
-              <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
-                info@astrospiritualistmasteromkar.com
+              <Link href="mailto:astrosanatana.info@gmail.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
+                astrosanatana.info@gmail.com
               </Link>
               <Link
                 href="/contact"

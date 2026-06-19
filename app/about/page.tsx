@@ -213,8 +213,8 @@ export default function AboutPage() {
               <Image alt="" aria-hidden="true" loading="lazy" width={20} height={20} decoding="async" className="w-5 h-5" src="/message.svg" />
               <span className="text-foreground text-xl font-medium font-playfair-display">Book Us</span>
             </div>
-            <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-primary text-sm font-semibold font-quicksand hover:text-secondary transition-colors break-all">
-              info@astrospiritualistmasteromkar.com
+            <Link href="mailto:astrosanatana.info@gmail.com" className="text-primary text-sm font-semibold font-quicksand hover:text-secondary transition-colors break-all">
+              astrosanatana.info@gmail.com
             </Link>
             <Link href="tel:+14169314409" className="text-primary text-sm font-semibold font-quicksand hover:text-secondary transition-colors">
               +1 416-931-4409

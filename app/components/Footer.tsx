@@ -145,7 +145,7 @@ export default function Footer() {
                 <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Book Us</div>
               </div>
               <div className="flex flex-col gap-2">
-                <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-primary text-sm font-normal font-quicksand leading-5 hover:text-secondary transition-colors break-all">info@astrospiritualistmasteromkar.com</Link>
+                <Link href="mailto:astrosanatana.info@gmail.com" className="text-primary text-sm font-normal font-quicksand leading-5 hover:text-secondary transition-colors break-all">astrosanatana.info@gmail.com</Link>
                 <Link href="tel:+14169314409" className="text-primary text-xl font-normal font-quicksand leading-5 hover:text-secondary transition-colors">+1 416-931-4409</Link>
                 <div className="text-primary text-sm font-semibold font-quicksand capitalize leading-5">
                   For support and bookings please contact us anytime.

@@ -289,7 +289,7 @@ export default function Header() {
                 <Image alt="Book Us" loading="lazy" width={24} height={24} decoding="async" src="/message.svg" style={{ color: "transparent" }} />
               </div>
               <p className="text-lg font-playfair-display text-foreground font-medium">Book Us</p>
-              <p className="text-sm">info@astrospiritualistmasteromkar.com</p>
+              <p className="text-sm">astrosanatana.info@gmail.com</p>
               <p className="text-sm">For support and bookings please contact us anytime.</p>
               <div className="flex gap-3 justify-center pt-2">
                 <Link href="https://wa.me/14169314409" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className="inline-flex items-center gap-2 bg-secondary text-white font-quicksand font-semibold rounded-full px-6 py-3 hover:bg-secondary/80 transition-colors text-sm">

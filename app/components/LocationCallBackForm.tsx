@@ -23,7 +23,7 @@ export default function LocationCallBackForm({ location }: { location: string })
       email: "N/A",
       serviceType: `Call Back Request — ${location}`,
       message: `Call back request from ${location}. Name: ${data.name}, Phone: ${data.phone}`,
-      mail_to: "www.vgujjar1234@gmail.com",
+      mail_to: "astrosanatana.info@gmail.com",
     };
 
     try {

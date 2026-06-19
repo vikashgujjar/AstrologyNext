@@ -167,8 +167,8 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
               <p className="text-primary font-quicksand font-medium text-xs leading-relaxed">
                 2175 Decoto Rd,<br />Union City, CA 94587, United States
               </p>
-              <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
-                info@astrospiritualistmasteromkar.com
+              <Link href="mailto:astrosanatana.info@gmail.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
+                astrosanatana.info@gmail.com
               </Link>
             </div>
 

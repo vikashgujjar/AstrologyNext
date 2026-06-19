@@ -39,8 +39,8 @@ const contactCards = [
       </svg>
     ),
     title: "Email Us",
-    lines: ["info@astrospiritualistmasteromkar.com"],
-    href: "mailto:info@astrospiritualistmasteromkar.com",
+    lines: ["astrosanatana.info@gmail.com"],
+    href: "mailto:astrosanatana.info@gmail.com",
     cta: "Send Email",
   },
 ];

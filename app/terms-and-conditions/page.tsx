@@ -47,7 +47,7 @@ const sections = [
       "Cancellations made at least 48 hours before a scheduled consultation are eligible for a full refund or rescheduling at no charge.",
       "Cancellations made less than 48 hours before the scheduled time may be subject to a cancellation fee of up to 50% of the session fee.",
       "No-shows without prior notice are non-refundable. For Pooja and ritual bookings where materials have been purchased in advance, refunds may not be possible once preparation has commenced.",
-      "To request a cancellation or reschedule, please contact us at +1 416-931-4409 or info@astrospiritualistmasteromkar.com.",
+      "To request a cancellation or reschedule, please contact us at +1 416-931-4409 or astrosanatana.info@gmail.com.",
     ],
   },
   {
@@ -181,8 +181,8 @@ export default function TermsPage() {
               <Link href="tel:+14169314409" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors">
                 +1 416-931-4409
               </Link>
-              <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
-                info@astrospiritualistmasteromkar.com
+              <Link href="mailto:astrosanatana.info@gmail.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
+                astrosanatana.info@gmail.com
               </Link>
               <Link
                 href="/contact"

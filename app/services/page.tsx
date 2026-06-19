@@ -137,8 +137,8 @@ export default function ServicesPage() {
               <h3 className="text-foreground font-playfair-display font-semibold text-lg">Email Us</h3>
               <p className="text-primary font-quicksand font-medium text-sm mt-1">Send us your details and we'll respond within 24 hours.</p>
             </div>
-            <Link href="mailto:info@astrospiritualistmasteromkar.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors inline-flex items-center gap-1 mt-auto break-all">
-              info@astrospiritualistmasteromkar.com
+            <Link href="mailto:astrosanatana.info@gmail.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors inline-flex items-center gap-1 mt-auto break-all">
+              astrosanatana.info@gmail.com
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" className="shrink-0"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
             </Link>
           </div>
