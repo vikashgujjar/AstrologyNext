@@ -6,7 +6,7 @@ const stats = [
 
 export default function Stats() {
   return (
-    <div className="py-6">
+    <div className="py-6 pt-12">
       <div className="flex text-secondary justify-center flex-wrap w-full gap-6 md:gap-20">
         {stats.map((stat) => (
           <div

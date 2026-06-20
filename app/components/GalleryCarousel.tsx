@@ -49,12 +49,15 @@ export default function GalleryCarousel() {
       <div className="bg-background p-4 sm:p-10 md:p-14 lg:p-20 overflow-hidden">
 
         {/* Heading */}
-        <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-10 md:mb-14 leading-snug">
+        <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-4 leading-snug">
           Astro Sanatana Veera Indian Renowned Psychic,{" "}
           <span className="font-playfair-display-italic text-foreground">
             Spiritual Healer
           </span>
         </h2>
+        <p className="text-center text-secondary font-quicksand font-medium text-sm md:text-base leading-relaxed max-w-2xl mx-auto mt-2 mb-2">
+          It&apos;s time to step into light — when light shines in darkness, all is revealed. The truth of a matter is a starting point, a direction. Whatever this may be for you, it begins when you choose to step out of the dark and say, let there be light.
+        </p>
         <div className="row-start-2 md:row-start-2 md:col-span-2">
           <div className="w-full mt-6 self-stretch">
             <Swiper

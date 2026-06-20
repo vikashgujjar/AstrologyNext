@@ -34,10 +34,10 @@ const cityData: { city: string; services?: string[] }[] = [
 
 export default function CityServices() {
   return (
-    <section className="w-full px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-16 bg-[#FFF2EB] mt-10 md:mt-16">
+    <section className="w-full px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-16 bg-[#FFF2EB] mt-12 md:mt-12">
 
       {/* Heading */}
-      <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-10 md:mb-14 leading-snug">
+      <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-6 md:mb-14 leading-snug">
         Astrologer Services{" "}
         <span className="font-playfair-display-italic text-foreground">
           Across the USA

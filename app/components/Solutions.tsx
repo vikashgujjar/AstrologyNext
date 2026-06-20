@@ -3,7 +3,9 @@ import Link from "next/link";
 
 const services = [
   { label: "Black Magic Removal", image: "/AstrologyImg/BlackMagicRemoval.jpg", slug: "black-magic-removal" },
-  { label: "Get Your Ex Love Back", image: "/AstrologyImg/GetYourExLoveBack.jpg", slug: "get-your-ex-love-back" },
+  { label: "Chakra Cleansing",              image: "/AstrologyImg/chakra.jpg",                slug: "chakra-cleansing" },
+  { label: "Identify Blockages & Root Issues", image: "/AstrologyImg/identify-blockages-root-issues.png", slug: "identify-blockages-root-issues" },
+  { label: "Get Your Ex Love Back",          image: "/AstrologyImg/GetYourExLoveBack.jpg",       slug: "get-your-ex-love-back" },
   { label: "Evil Spirit Removal", image: "/AstrologyImg/EvilSpiritRemoval.jpg", slug: "evil-spirit-removal" },
   { label: "Palm Reading", image: "/AstrologyImg/PalmReading.jpg", slug: "palm-reading" },
   { label: "Negative Energy Removal", image: "/AstrologyImg/NegativeEnergyRemoval.jpg", slug: "negative-energy-removal" },
@@ -14,7 +16,6 @@ const services = [
   { label: "Spiritual Healing", image: "/AstrologyImg/SpiritualHealing.jpg", slug: "spiritual-healing" },
   // { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg", slug: "win-lotto" },
   { label: "Job & Business Problems", image: "/AstrologyImg/JobBusinessProblems.jpg", slug: "job-business-problems" },
-  { label: "Chakra Cleansing",        image: "/AstrologyImg/chakra.jpg",    slug: "chakra-cleansing" },
 ];
 
 export default function Solutions() {
@@ -22,7 +23,7 @@ export default function Solutions() {
     <section className="w-full px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-16 pt-0! bg-background">
 
       {/* Heading */}
-      <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-10 md:mb-14 leading-snug">
+      <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-4 md:mb-14 leading-snug">
         Best Solution Provided By{" "}
         <span className="font-playfair-display-italic text-foreground">
           Astro Sanatana
