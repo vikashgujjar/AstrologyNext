@@ -54,9 +54,9 @@ export default function Header() {
                   style={{ position: "absolute", height: "100%", width: "100%", left: 0, top: 0, right: 0, bottom: 0, color: "transparent" }}
                 />
               </div>
-              <div className="flex flex-col leading-tight">
-                <span className="font-playfair-display font-bold text-primary text-2xl md:text-3xl tracking-wide">Astro</span>
-                <span className="font-playfair-display-italic text-foreground text-sm md:text-xl">Sanatana</span>
+              <div className="flex flex-col text-center leading-tight">
+                <span className="font-playfair-display uppercase font-bold text-primary text-3xl md:text-3xl tracking-wide">Astro</span>
+                <span className="font-playfair-display-italic uppercase font-bold text-foreground text-3xl md:text-3xl">Sanatana</span>
               </div>
             </Link>
           </div>
