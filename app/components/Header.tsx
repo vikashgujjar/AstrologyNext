@@ -55,8 +55,8 @@ export default function Header() {
                 />
               </div>
               <div className="flex flex-col leading-tight">
-                <span className="font-playfair-display font-bold text-primary text-xl md:text-3xl tracking-wide">Astro</span>
-                <span className="font-playfair-display-italic text-foreground text-xl md:text-3xl">Sanatana</span>
+                <span className="font-playfair-display font-bold text-primary text-2xl md:text-3xl tracking-wide">Astro</span>
+                <span className="font-playfair-display-italic text-foreground text-sm md:text-xl">Sanatana</span>
               </div>
             </Link>
           </div>
