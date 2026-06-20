@@ -44,7 +44,7 @@ export default function Header() {
           {/* Logo */}
           <div className="flex">
             <Link className="flex items-center gap-2.5" href="/">
-              <div className="w-14 h-14 md:w-22 md:h-22 relative shrink-0">
+              <div className="w-20 h-20 md:w-28 md:h-28 relative shrink-0">
                 <Image
                   alt="Astro Sanatana"
                   fill
@@ -55,8 +55,8 @@ export default function Header() {
                 />
               </div>
               <div className="flex flex-col leading-tight">
-                <span className="font-playfair-display font-bold text-primary text-base md:text-lg tracking-wide">Astro</span>
-                <span className="font-playfair-display-italic text-foreground text-base md:text-lg">Sanatana</span>
+                <span className="font-playfair-display font-bold text-primary text-xl md:text-3xl tracking-wide">Astro</span>
+                <span className="font-playfair-display-italic text-foreground text-xl md:text-3xl">Sanatana</span>
               </div>
             </Link>
           </div>
@@ -98,7 +98,7 @@ export default function Header() {
 
           {/* Mobile: Hamburger */}
           <div className="lg:hidden flex items-center gap-2">
-            <Link
+            {/* <Link
               href="tel:+14169314409"
               className="inline-flex items-center gap-1.5 bg-secondary text-white font-quicksand font-semibold rounded-full px-3 py-1.5 text-xs"
             >
@@ -106,7 +106,7 @@ export default function Header() {
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 12 19.79 19.79 0 0 1 1.07 3.38A2 2 0 0 1 3 1.07h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
               </svg>
               416-931-4409
-            </Link>
+            </Link> */}
             <button
               onClick={() => setMenuOpen(true)}
               className="inline-flex items-center justify-center text-primary hover:text-secondary p-2"
@@ -229,7 +229,7 @@ export default function Header() {
             {/* Top row: logo + close */}
             <div className="flex justify-between items-center mb-8">
               <Link className="-m-1.5 p-1.5" href="/" onClick={() => setMenuOpen(false)}>
-                <div className="w-40 h-40 relative">
+                <div className="w-22 h-22 relative">
                   <Image alt="Astro Sanatana Veer" fill decoding="async" className="object-contain" src="/logo.png" style={{ position: "absolute", height: "100%", width: "100%", inset: 0, color: "transparent" }} />
                 </div>
               </Link>
