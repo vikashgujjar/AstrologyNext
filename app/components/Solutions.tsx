@@ -15,7 +15,9 @@ const services = [
   { label: "Relationship Problems", image: "/AstrologyImg/RelationshipProblems.jpg", slug: "relationship-problems" },
   { label: "Spiritual Healing", image: "/AstrologyImg/SpiritualHealing.jpg", slug: "spiritual-healing" },
   // { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg", slug: "win-lotto" },
-  { label: "Job & Business Problems", image: "/AstrologyImg/JobBusinessProblems.jpg", slug: "job-business-problems" },
+  { label: "Job & Business Problems",              image: "/AstrologyImg/JobBusinessProblems.jpg",              slug: "job-business-problems" },
+  { label: "Financial Stuck",                       image: "/AstrologyImg/FinancialStuck.jpg",               slug: "financial-stuck" },
+  { label: "Generational Curse & Past Life Karma",  image: "/AstrologyImg/GenerationalCursandPast.jpg",  slug: "generational-curse-past-life-karma" },
 ];
 
 export default function Solutions() {

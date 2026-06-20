@@ -431,6 +431,66 @@ export const services: Service[] = [
       "Auspicious timing for major career and business decisions",
     ],
   },
+  {
+    slug: "financial-stuck",
+    label: "Financial Stuck",
+    image: "/AstrologyImg/FinancialStuck.jpg",
+    tagline: "Break Financial Blocks & Attract Abundance",
+    description: [
+      "Are you working hard but never seem to get ahead financially? Unexpected expenses, mounting debts, failed investments, or a constant inability to save or grow wealth — despite your best efforts — are often signs of financial blockages rooted in planetary afflictions, Vastu imbalances, or karmic patterns in your birth chart.",
+      "At Astro Sanatana, we use Vedic astrology to identify the precise cosmic causes of your financial stagnation. Through powerful Lakshmi Pujas, Kubera Mantras, planetary remedy rituals, and Vastu corrections, we help you remove the invisible barriers blocking your prosperity and realign your energy with wealth and abundance.",
+    ],
+    whatWeOffer: [
+      "Wealth astrology — analysis of 2nd, 8th, and 11th houses",
+      "Lakshmi Puja and Kubera Mantra rituals for financial abundance",
+      "Identification and removal of financial curse or black magic",
+      "Vastu Shastra audit for home and workplace wealth zones",
+      "Jupiter and Venus strengthening remedies for prosperity",
+      "Gemstone recommendations to attract wealth energy",
+    ],
+    howItWorks: [
+      { title: "Financial Chart Analysis", desc: "We examine your birth chart's wealth houses, Jupiter, Venus, and current Dasha periods to pinpoint the astrological cause of your financial blockage." },
+      { title: "Blockage Identification", desc: "We identify whether the cause is planetary, karmic, Vastu-related, or due to negative energies such as black magic or ancestral curses." },
+      { title: "Abundance Remedies", desc: "A tailored plan of Pujas, Mantras, Yantras, Vastu corrections, and gemstones is prescribed to dissolve the blockage and activate your wealth potential." },
+    ],
+    benefits: [
+      "Removal of hidden financial blockages and money curses",
+      "Improved cash flow, savings, and financial stability",
+      "Restored confidence in financial decisions",
+      "Attraction of new income opportunities and investments",
+      "Long-term prosperity through sustained Vedic remedies",
+    ],
+  },
+  {
+    slug: "generational-curse-past-life-karma",
+    label: "Generational Curse & Past Life Karma",
+    image: "/AstrologyImg/GenerationalCursandPast.jpg",
+    tagline: "Break Ancestral Cycles & Heal Karmic Wounds",
+    description: [
+      "Some of life's deepest struggles — recurring patterns of failure, relationship breakdowns, chronic illness, or unexplained suffering — are not caused by current-life actions alone. They are the echo of unresolved karma passed down through family bloodlines or carried forward from past lifetimes. These generational curses and karmic imprints silently shape our destiny until they are consciously identified and healed.",
+      "At Astro Sanatana, we specialise in identifying ancestral karma and past-life karmic patterns through in-depth Vedic birth chart analysis and psychic soul reading. Using powerful Pitru Dosha rituals, ancestral healing Pujas, Karmic Mantra therapy, and past-life regression guidance, we help you break free from inherited suffering and step into your true, unencumbered destiny.",
+    ],
+    whatWeOffer: [
+      "Pitru Dosha analysis and ancestral karma identification",
+      "Past-life karmic reading through Vedic chart and psychic insight",
+      "Pitru Tarpan and Shraddha rituals for ancestral healing",
+      "Kaal Sarp Dosha and Navagraha remedies for karmic clearing",
+      "Mahamrityunjaya and Gayatri Mantra Japa for soul liberation",
+      "Guidance on breaking recurring negative family patterns",
+    ],
+    howItWorks: [
+      { title: "Karmic Assessment", desc: "We analyse your birth chart for Pitru Dosha, Kaal Sarp Dosha, Rahu-Ketu placements, and other indicators of ancestral or past-life karma." },
+      { title: "Ancestral & Soul Healing", desc: "Targeted Vedic rituals — Pitru Tarpan, Shraddha Puja, and Mantra Japa — are performed to appease ancestral souls and dissolve karmic imprints." },
+      { title: "Liberation & Protection", desc: "You receive a personalised practice and protective remedies to ensure the karmic cycle is permanently broken and your soul path is cleared." },
+    ],
+    benefits: [
+      "Liberation from repetitive patterns of failure and suffering",
+      "Healing of ancestral wounds affecting your health and relationships",
+      "Restored family harmony and generational peace",
+      "Freedom from unexplained fears, phobias, and emotional blocks",
+      "Spiritual clarity and alignment with your soul's true purpose",
+    ],
+  },
 ];
 
 export function getServiceBySlug(slug: string): Service | undefined {

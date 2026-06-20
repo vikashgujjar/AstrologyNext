@@ -43,16 +43,20 @@ export default function Header() {
 
           {/* Logo */}
           <div className="flex">
-            <Link className="-m-1.5 p-1.5" href="/">
-              <div className="w-25 h-25 md:w-35 md:h-35 relative">
+            <Link className="flex items-center gap-2.5" href="/">
+              <div className="w-14 h-14 md:w-22 md:h-22 relative shrink-0">
                 <Image
-                  alt="Astro Sanatana Veer"
+                  alt="Astro Sanatana"
                   fill
                   decoding="async"
                   className="object-contain"
                   src="/logo.png"
                   style={{ position: "absolute", height: "100%", width: "100%", left: 0, top: 0, right: 0, bottom: 0, color: "transparent" }}
                 />
+              </div>
+              <div className="flex flex-col leading-tight">
+                <span className="font-playfair-display font-bold text-primary text-base md:text-lg tracking-wide">Astro</span>
+                <span className="font-playfair-display-italic text-foreground text-base md:text-lg">Sanatana</span>
               </div>
             </Link>
           </div>
@@ -225,7 +229,7 @@ export default function Header() {
             {/* Top row: logo + close */}
             <div className="flex justify-between items-center mb-8">
               <Link className="-m-1.5 p-1.5" href="/" onClick={() => setMenuOpen(false)}>
-                <div className="w-40 h-20 relative">
+                <div className="w-40 h-40 relative">
                   <Image alt="Astro Sanatana Veer" fill decoding="async" className="object-contain" src="/logo.png" style={{ position: "absolute", height: "100%", width: "100%", inset: 0, color: "transparent" }} />
                 </div>
               </Link>

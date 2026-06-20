@@ -120,7 +120,7 @@ export default async function LocationPage({ params }: { params: Promise<{ slug:
                   Request A Call Back
                 </h3>
                 <p className="text-secondary font-quicksand text-sm mt-1">
-                  Master Raj Dutt Will Call You Within 24 Hours
+                  Astro Sanatana Will Call You Within 24 Hours
                 </p>
               </div>
               <LocationCallBackForm location={location.name} />
