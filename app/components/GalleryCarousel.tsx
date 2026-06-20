@@ -70,7 +70,7 @@ export default function GalleryCarousel() {
             >
               {SLIDES.map((slide, i) => (
                 <SwiperSlide key={i}>
-                  <div className="relative cursor-pointer" style={{ height: "550px" }}>
+                  <div className="relative cursor-pointer" style={{ height: "100%" }}>
                     <Image
                       alt={slide.alt}
                       width={1920}
