@@ -3,7 +3,7 @@ import Link from "next/link";
 import ContactForm from "../components/ContactForm";
 
 export const metadata = {
-  title: "Contact Us | Astro Sanatana",
+  title: "Location | Astro Sanatana",
   description: "Get in touch with Astro Sanatana for astrology consultations, Pooja bookings, Vastu guidance, and spiritual support.",
 };
 

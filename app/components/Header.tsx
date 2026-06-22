@@ -9,7 +9,7 @@ const navLinks = [
   { label: "Chat now", href: "/connect-with-astrologer" },
   { label: "Call now", href: "tel:+14169314409" },
   { label: "Gallery", href: "/gallery" },
-  { label: "Contact Us", href: "/contact" },
+  { label: "Location", href: "/location" },
 ];
 
 export default function Header() {
@@ -56,7 +56,7 @@ export default function Header() {
               </div>
               <div className="flex flex-col text-center leading-tight">
                 <span className="font-playfair-display uppercase font-bold text-primary text-3xl md:text-3xl tracking-wide">Astro</span>
-                <span className="font-playfair-display-italic uppercase font-bold text-foreground text-3xl md:text-3xl">Sanatana</span>
+                <span className="font-playfair-display uppercase font-bold text-[#e10000] text-3xl md:text-3xl">Sanatana</span>
               </div>
             </Link>
           </div>
@@ -79,7 +79,7 @@ export default function Header() {
             </button>
 
             <Link className="text-sm font-medium text-secondary hover:text-primary transition-colors" href="/gallery">Gallery</Link>
-            <Link className="text-sm font-medium text-secondary hover:text-primary transition-colors" href="/contact">Contact Us</Link>
+            <Link className="text-sm font-medium text-secondary hover:text-primary transition-colors" href="/location">Location</Link>
           </div>
 
           {/* Desktop CTA buttons */}

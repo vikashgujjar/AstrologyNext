@@ -3,14 +3,12 @@ import ConnectCards from "./components/ConnectCards";
 import Solutions from "./components/Solutions";
 import Locations from "./components/Locations";
 import GalleryCarousel from "./components/GalleryCarousel";
-import TeamCarousel from "./components/TeamCarousel";
-import TeamGalleryCarousel from "./components/TeamGalleryCarousel";
 import Stats from "./components/Stats";
 import ConnectNow from "./components/ConnectNow";
-import HonorableFeatures from "./components/HonorableFeatures";
 import CityServices from "./components/CityServices";
 import Link from "next/link";
 import ContactForm from "./components/ContactForm";
+import Reviews from "./components/Reviews";
 
 export default function Home() {
   return (
@@ -19,7 +17,6 @@ export default function Home() {
       <Banner />
       <ConnectCards />
       <GalleryCarousel />
-      {/* <TeamCarousel /> */}
       <Solutions />
 
       {/* Contact Form */}
@@ -150,12 +147,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* <TeamGalleryCarousel /> */}
+      <Reviews />
       <Stats />
       <ConnectNow />
       <CityServices />
       <Locations />
-      {/* <HonorableFeatures /> */}
     </main>
   );
 }

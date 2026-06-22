@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { services, getServiceBySlug, getAllServiceSlugs } from "../../data/services";
+import Reviews from "../../components/Reviews";
 
 export async function generateStaticParams() {
   return getAllServiceSlugs().map((slug) => ({ slug }));
@@ -194,6 +195,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </div>
       </div>
 
+      <Reviews />
       {/* Related Services */}
       <div className="bg-[#FFF2EB] px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-14">
         <h2 className="text-2xl md:text-3xl font-medium font-playfair-display leading-snug mb-8">
@@ -222,6 +224,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         </div>
       </div>
 
+
       {/* Bottom CTA */}
       <div className="px-4 sm:px-10 md:px-14 lg:px-20 py-12 md:py-16 flex flex-col items-center gap-5 text-center">
         <Image src="/star-primary.svg" alt="" width={36} height={36} aria-hidden="true" className="opacity-60" />
@@ -242,10 +245,10 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
             Book on WhatsApp
           </Link>
           <Link
-            href="/contact"
+            href="/location"
             className="inline-flex items-center gap-2 border border-secondary text-secondary font-quicksand font-semibold rounded-full px-7 py-3 hover:bg-secondary hover:text-white transition-colors text-sm"
           >
-            Contact Us
+            Location
           </Link>
         </div>
       </div>

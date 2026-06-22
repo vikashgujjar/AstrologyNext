@@ -60,7 +60,7 @@ export default function Footer() {
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/about">About Us</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/contact">Contact Us</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/location">Location</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/faq">FAQs</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/gallery">Gallery</Link>
                 </div>

@@ -361,10 +361,10 @@ export default async function LocationPage({ params }: { params: Promise<{ slug:
             Book on WhatsApp
           </Link>
           <Link
-            href="/contact"
+            href="/location"
             className="inline-flex items-center gap-2 border border-secondary text-secondary font-quicksand font-semibold rounded-full px-7 py-3 hover:bg-secondary hover:text-white transition-colors text-sm"
           >
-            Contact Us
+            Location
           </Link>
         </div>
       </div>

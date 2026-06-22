@@ -123,9 +123,9 @@ export default function TeamPage() {
               Talk to an Astrologer
             </button>
           </Link>
-          <Link href="/contact">
+          <Link href="/location">
             <button className="inline-flex items-center py-4 px-8 justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring border border-secondary text-secondary hover:bg-secondary/10">
-              Contact Us
+              Location
             </button>
           </Link>
         </div>
