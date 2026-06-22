@@ -8,7 +8,7 @@ import { services } from "../data/services";
 const navLinks = [
   { label: "Chat now", href: "/connect-with-astrologer" },
   { label: "Call now", href: "tel:+14169314409" },
-  { label: "about", href: "/About Us" },
+  { label: "About Us", href: "/about" },
   { label: "Location", href: "/location" },
 ];
 
@@ -35,6 +35,41 @@ export default function Header() {
 
   return (
     <div className="bg-background w-full">
+
+      {/* ── Topbar ── */}
+      <div className="w-full bg-secondary  py-2.5">
+        <div className="mx-auto flex items-center justify-between px-4 sm:px-10 md:px-14 lg:px-20 py-2 md:py-2">
+
+          {/* 5k+ Satisfied Clients */}
+          <div className="flex items-center gap-2.5 flex-1 justify-start">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+              <circle cx="9" cy="7" r="4" />
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+              <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+            </svg>
+            <span className="font-quicksand font-bold text-white text-[11px] sm:text-base uppercase tracking-widest">
+              5k+ Satisfied Clients
+            </span>
+          </div>
+
+          {/* Divider */}
+          <div className="w-px h-5 bg-primary/30 mx-4 shrink-0" />
+
+          {/* 24x7 Services */}
+          <div className="flex items-center gap-2.5 flex-1 justify-end">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <circle cx="12" cy="12" r="10" stroke="#fff" strokeDasharray="3 2" />
+              <polyline points="12 6 12 12 16 14" />
+            </svg>
+            <span className="font-quicksand font-bold text-white text-[11px] sm:text-base uppercase tracking-widest">
+              24 x 7 Our Services
+            </span>
+          </div>
+
+        </div>
+      </div>
+
       <header
         ref={headerRef}
         className="font-playfair-display relative top-0 right-0 left-0 shadow-sm lg:shadow-none z-40"
@@ -228,9 +263,13 @@ export default function Header() {
 
             {/* Top row: logo + close */}
             <div className="flex justify-between items-center mb-8">
-              <Link className="-m-1.5 p-1.5" href="/" onClick={() => setMenuOpen(false)}>
+              <Link className="-m-1.5 p-1.5 flex items-center gap-2.5" href="/" onClick={() => setMenuOpen(false)}>
                 <div className="w-22 h-22 relative">
                   <Image alt="Astro Sanatana Veer" fill decoding="async" className="object-contain" src="/logo.png" style={{ position: "absolute", height: "100%", width: "100%", inset: 0, color: "transparent" }} />
+                </div>
+                <div className="flex flex-col text-center leading-tight">
+                  <span className="font-playfair-display uppercase font-bold text-primary text-3xl md:text-3xl tracking-wide">Astro</span>
+                  <span className="font-playfair-display uppercase font-bold text-[#e10000] text-3xl md:text-3xl">Sanatana</span>
                 </div>
               </Link>
               <button onClick={() => setMenuOpen(false)} className="text-primary hover:text-secondary p-2" aria-label="Close menu">
