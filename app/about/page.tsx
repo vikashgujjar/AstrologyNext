@@ -1,202 +1,274 @@
 import Image from "next/image";
 import Link from "next/link";
-import Stats from "../components/Stats";
-import TeamCarousel from "../components/TeamCarousel";
 import GalleryCarousel from "../components/GalleryCarousel";
 import ConnectNow from "../components/ConnectNow";
+import Solutions from "../components/Solutions";
 
 export const metadata = {
   title: "About Us | Astro Sanatana",
-  description: "Meet Astro Sanatana — a lineage of Vedic astrologers with 50+ years of experience guiding over 1 million clients across 30+ countries through Jyotish, Vastu, and sacred Pooja rituals.",
+  description: "Indian Astrologer, Psychic Reader & Spiritual Healer in California. Astro Sanatana provides trusted astrology, psychic guidance, spiritual healing, and chakra cleansing services across the United States.",
 };
+
+const specialties = [
+  "Vedic Astrology Consultations",
+  "Psychic Readings",
+  "Palm Reading",
+  "Fortune Telling",
+  "Spiritual Guidance",
+  "Chakra Cleansing & Balancing",
+  "Energy Healing",
+  "Relationship & Marriage Guidance",
+  "Love and Compatibility Readings",
+  "Career & Business Consultations",
+  "Family Guidance",
+  "Meditation and Spiritual Development",
+  "Negative Energy Cleansing",
+  "Personal Growth and Life Direction",
+];
+
+const cities = [
+  "Los Angeles", "Sacramento", "San Francisco", "San Jose", "Fremont",
+  "Santa Clara", "Sunnyvale", "Palo Alto", "Oakland", "San Diego",
+  "Irvine", "Anaheim", "Long Beach", "Santa Monica", "Bay Area",
+];
+
+const whyChoose = [
+  { icon: "✦", label: "Personalized Consultations", desc: "Every session is tailored to your unique situation and needs." },
+  { icon: "✦", label: "Years of Spiritual Experience", desc: "Deep expertise in Vedic astrology and spiritual practices." },
+  { icon: "✦", label: "Confidential & Respectful", desc: "Your privacy is always our top priority." },
+  { icon: "✦", label: "Compassionate Approach", desc: "Guidance delivered with empathy and genuine care." },
+  { icon: "✦", label: "Phone & Online Sessions", desc: "Convenient consultations from anywhere in the world." },
+  { icon: "✦", label: "Clarity & Peace of Mind", desc: "Dedicated to helping you achieve positive direction in life." },
+];
+
 
 export default function AboutPage() {
   return (
     <main className="flex flex-col flex-1">
 
-      {/* Hero */}
-      <div className="bg-background p-4 pb-0! sm:p-10 md:p-14 overflow-hidden lg:p-20">
+      {/* ── Hero ── */}
+      <div className="bg-background px-4 sm:px-10 md:px-14 lg:px-20 pt-8 md:pt-10 pb-10 md:pb-16">
         <div className="flex flex-col items-center gap-8">
 
-          {/* Image with peach frame */}
-          <div className="relative p-1 md:p-3 bg-[#ffc09d] rounded-xl md:rounded-3xl max-w-4xl mx-auto w-full">
+          {/* Framed image */}
+          {/* <div className="relative p-1 md:p-3 bg-[#ffc09d] rounded-xl md:rounded-3xl max-w-4xl mx-auto w-full">
             <Image
-              alt="Astro Sanatana with MS Dhoni"
+              alt="Astro Sanatana"
               loading="lazy"
               width={1000}
               height={600}
               decoding="async"
-              className="rounded-xl w-full h-64 md:h-105 object-cover md:rounded-3xl"
-              src="/carouselsImg/Gallery3.webp"
+              className="rounded-xl w-full h-64 md:h-96 object-cover md:rounded-3xl"
+              src="/carouselsImg/1.png"
             />
-
-            {/* Sparkle decorations — desktop only */}
             <div className="hidden md:block">
-              <Image
-                alt=""
-                aria-hidden="true"
-                loading="lazy"
-                width={80}
-                height={80}
-                decoding="async"
-                className="absolute bottom-4 -left-10 w-16 h-16 opacity-80"
-                src="/star-light.svg"
-              />
-              <Image
-                alt=""
-                aria-hidden="true"
-                loading="lazy"
-                width={80}
-                height={80}
-                decoding="async"
-                className="absolute top-4 -right-10 w-16 h-16 opacity-80"
-                src="/star-light.svg"
-              />
-              <Image
-                alt=""
-                aria-hidden="true"
-                loading="lazy"
-                width={44}
-                height={44}
-                decoding="async"
-                className="absolute top-16 -left-6 w-8 h-8 opacity-50"
-                src="/star-light.svg"
-              />
-              <Image
-                alt=""
-                aria-hidden="true"
-                loading="lazy"
-                width={44}
-                height={44}
-                decoding="async"
-                className="absolute bottom-16 -right-6 w-8 h-8 opacity-50"
-                src="/star-light.svg"
-              />
+              <Image alt="" aria-hidden="true" loading="lazy" width={80} height={80} decoding="async" className="absolute bottom-4 -left-10 w-16 h-16 opacity-80" src="/star-light.svg" />
+              <Image alt="" aria-hidden="true" loading="lazy" width={80} height={80} decoding="async" className="absolute top-4 -right-10 w-16 h-16 opacity-80" src="/star-light.svg" />
+              <Image alt="" aria-hidden="true" loading="lazy" width={44} height={44} decoding="async" className="absolute top-16 -left-6 w-8 h-8 opacity-50" src="/star-light.svg" />
+              <Image alt="" aria-hidden="true" loading="lazy" width={44} height={44} decoding="async" className="absolute bottom-16 -right-6 w-8 h-8 opacity-50" src="/star-light.svg" />
             </div>
-          </div>
+          </div> */}
 
-          {/* Text */}
-          <div className="flex flex-col md:items-center gap-6 px-4 py-8 md:py-12 md:text-center">
-            <h2 className="text-3xl md:text-4xl font-medium font-playfair-display leading-tight max-w-4xl">
-              <span className="text-secondary">Where </span>
-              <span className="text-foreground font-playfair-display-italic">ancient wisdom</span>
-              <br />
-              <span className="text-secondary">meets your modern life</span>
-            </h2>
-            <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-4xl">
-              Astro Sanatana is home to the world&apos;s most trusted Vedic astrologers and Jyotish experts.
-              With over 50 years of combined experience, we have guided more than 1 million clients across 30+ countries —
-              helping families, leaders, and celebrities find clarity, harmony, and purpose through the timeless
-              science of Jyotish.
+          {/* Intro text */}
+          <div className="flex flex-col md:items-center gap-5 py-6 md:py-10 md:text-center max-w-4xl">
+            <p className="font-quicksand font-semibold text-xs uppercase tracking-widest text-secondary/60">
+              Indian Astrologer · Psychic Reader · Spiritual Healer
+            </p>
+            <h1 className="text-3xl md:text-5xl font-medium font-playfair-display leading-tight">
+              <span className="text-secondary">About </span>
+              <span className="text-foreground font-playfair-display-italic">Astro Sanatana</span>
+            </h1>
+            <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed">
+              Welcome to Astro Sanatana, a trusted source for astrology, psychic guidance, spiritual healing,
+              and chakra cleansing services. Dedicated to helping individuals find clarity, peace, and direction,
+              Astro Sanatana provides personalized spiritual consultations for clients throughout California and
+              across the United States.
+            </p>
+            <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed">
+              With years of experience in astrology and spiritual practices, Astro Sanatana has guided people from
+              diverse backgrounds through life's challenges involving relationships, marriage, family matters,
+              career decisions, finances, emotional well-being, and personal growth.
             </p>
           </div>
         </div>
       </div>
 
-
-      {/* Legacy of Wisdom */}
-      <div className="flex flex-col p-4 md:p-12 py-7">
-        <div className="relative mx-auto flex flex-col items-center gap-4">
-          <Image
-            alt=""
-            aria-hidden="true"
-            loading="lazy"
-            width={80}
-            height={80}
-            decoding="async"
-            className="absolute left-1/4 top-6 rotate-180 w-20 h-20 opacity-60"
-            src="/star-light.svg"
-          />
-          <div className="flex flex-col md:items-center gap-6 px-4 py-8 md:py-12 pb-0! md:text-center">
-            <h2 className="text-3xl md:text-4xl font-medium font-playfair-display leading-tight max-w-4xl">
-              <span className="text-foreground font-playfair-display-italic">Astro Sanatana — </span>
-              <br />
-              <span className="text-secondary">A Legacy of Vedic Wisdom</span>
-            </h2>
-            <p className="text-secondary text-lg md:text-xl font-medium font-quicksand leading-relaxed max-w-4xl">
-              Astro Sanatana&apos;s journey into the sacred science of Jyotish is rooted in a deep family
-              lineage of Vedic knowledge passed down through generations. Guided by ancient scriptures and an
-              unwavering devotion to truth, Astro Sanatana dedicated his life to mastering every dimension
-              of Vedic astrology — from Jyotish and Vastu to sacred Pooja rituals. His relentless pursuit of
-              authentic knowledge and compassionate counsel have made him a trusted spiritual guide to some of
-              the world&apos;s most celebrated families, celebrities, and business leaders.
-            </p>
-          </div>
+      {/* ── Our Mission ── */}
+      <div className="bg-[#FFF2EB] border-y border-[#ffc09d]/40 px-4 sm:px-10 md:px-14 lg:px-20 py-12 md:py-16">
+        <div className="max-w-4xl mx-auto flex flex-col md:items-center gap-5 md:text-center">
+          <p className="font-quicksand font-semibold text-xs uppercase tracking-widest text-secondary/60">Our Purpose</p>
+          <h2 className="text-2xl md:text-3xl font-medium font-playfair-display leading-snug">
+            <span className="text-secondary">Our </span>
+            <span className="text-foreground font-playfair-display-italic">Mission</span>
+          </h2>
+          <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed">
+            At Astro Sanatana, we believe that every person has a unique destiny and life path. Through astrology,
+            intuitive guidance, and spiritual wisdom, our goal is to help individuals gain a deeper understanding of
+            themselves and make informed decisions with confidence.
+          </p>
+          <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed">
+            We are committed to providing honest, respectful, and confidential consultations that empower clients
+            to move forward with greater clarity and peace of mind.
+          </p>
         </div>
+      </div>
+
+      {/* ── Gallery Carousel ── */}
+      {/* <div className="py-6 md:py-10">
         <GalleryCarousel />
-      </div>
+      </div> */}
 
-      {/* Team */}
-      <TeamCarousel />
-
-      {/* Services Grid */}
-      <div className="flex pb-20 flex-col p-4 md:p-12 py-7">
-        <div className="relative max-w-4xl mx-auto w-full">
-          <div className="flex flex-col md:items-center gap-6 px-4 py-8 md:py-12 md:text-center">
-            <h2 className="text-3xl md:text-4xl font-medium font-playfair-display leading-tight max-w-4xl">
-              <span className="text-secondary">Sacred services that have </span>
-              <span className="text-foreground font-playfair-display-italic">transformed</span>
-              <br />
-              <span className="text-secondary">millions of lives worldwide</span>
+      {/* ── Experience & Expertise ── */}
+      <div className="px-4 sm:px-10 md:px-14 lg:px-20 py-12 md:py-16">
+        <div className="max-w-5xl mx-auto flex flex-col gap-8">
+          <div className="flex flex-col md:items-center gap-4 md:text-center">
+            <p className="font-quicksand font-semibold text-xs uppercase tracking-widest text-secondary/60">Specialisations</p>
+            <h2 className="text-2xl md:text-3xl font-medium font-playfair-display leading-snug">
+              <span className="text-secondary">Experience &amp; </span>
+              <span className="text-foreground font-playfair-display-italic">Spiritual Expertise</span>
             </h2>
+            <p className="text-secondary font-quicksand font-medium text-base md:text-lg leading-relaxed max-w-2xl">
+              Through years of spiritual study and practice, Astro Sanatana has helped clients gain insight into
+              important life decisions and achieve greater balance and harmony.
+            </p>
           </div>
-          <Image
-            alt=""
-            aria-hidden="true"
-            loading="lazy"
-            width={100}
-            height={100}
-            decoding="async"
-            className="hidden md:block absolute top-0 -right-12"
-            src="/star-light.svg"
-          />
-        </div>
 
-        <div className="w-full mt-6 self-stretch">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-6">
-            {[
-              { alt: "Astrology", label: "Astrology", src: "/AstrologyImg/HoroscopeReading.jpg" },
-              { alt: "Pooja", label: "Pooja", src: "/AstrologyImg/SpiritualHealing.jpg" },
-              { alt: "Vastu", label: "Vastu", src: "/AstrologyImg/VastuConsultation.jpg" },
-              { alt: "Wedding", label: "Wedding", src: "/AstrologyImg/LoveMarriage.jpg" },
-            ].map((service) => (
-              <div key={service.label} className="transition-all flex items-center justify-center duration-300">
-                <div className="flex flex-col gap-2 max-w-xs w-full">
-                  <div className="w-full h-37.5 sm:h-75 aspect-268/300 relative">
-                    <Image
-                      alt={service.alt}
-                      fill
-                      loading="lazy"
-                      decoding="async"
-                      className="object-cover rounded-tl-[150px] rounded-tr-[150px]"
-                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 50vw, 25vw"
-                      src={service.src}
-                    />
-                  </div>
-                  <div className="flex justify-center text-center w-full">
-                    <h3 className="text-primary text-center text-base md:text-xl font-semibold font-playfair-display leading-normal">
-                      {service.label}
-                    </h3>
-                  </div>
-                </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {specialties.map((item) => (
+              <div key={item} className="flex items-center gap-3 px-4 py-3 bg-[#FFF2EB] rounded-xl border border-[#ffc09d]/40">
+                <span className="text-primary shrink-0">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M20 6 9 17l-5-5" />
+                  </svg>
+                </span>
+                <span className="text-secondary font-quicksand font-semibold text-sm">{item}</span>
               </div>
             ))}
           </div>
         </div>
       </div>
 
-      {/* Contact Info */}
-      <div className="px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-16">
-        <h2 className="text-2xl md:text-4xl font-medium font-playfair-display text-secondary mb-4 md:text-center">
-          Get in <span className="font-playfair-display-italic text-foreground">Touch</span>
+      {/* ── Services Available ── */}
+      <Solutions />
+
+      {/* ── Serving California ── */}
+      <section className="w-full px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-16 bg-[#FFF2EB] mt-12">
+
+        <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-3 leading-snug">
+          Serving Clients Throughout{" "}
+          <span className="font-playfair-display-italic text-foreground">California</span>
         </h2>
-        <p className="text-secondary font-quicksand font-medium text-base md:text-lg mb-10 md:text-center">
-          Reach out to us for consultations, bookings, or any queries — we&apos;re here to guide you.
+        <p className="text-center text-secondary font-quicksand font-medium text-sm md:text-base mb-10 max-w-2xl mx-auto">
+          Astro Sanatana proudly serves clients across California. Phone and online consultations are also
+          available for clients throughout the United States.
         </p>
 
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          {cities.map((city) => (
+            <div
+              key={city}
+              className="flex flex-col rounded-2xl overflow-hidden border border-[#ffc09d]/50 shadow-sm"
+            >
+              <div className="bg-foreground px-5 py-4">
+                <h3 className="text-white font-playfair-display font-semibold text-base text-center leading-snug">
+                  Astrologer Services in {city}
+                  <br />
+                  <span className="text-[#ffc09d] font-quicksand font-medium text-sm">(Astro Sanatana)</span>
+                </h3>
+              </div>
+              <div className="bg-white p-4 flex flex-col gap-2.5 flex-1">
+                <Link
+                  href="/connect-with-astrologer"
+                  className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
+                >
+                  Astrologer in {city}
+                </Link>
+                <Link
+                  href="/connect-with-astrologer"
+                  className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
+                >
+                  Psychic Reader in {city}
+                </Link>
+                <Link
+                  href="/connect-with-astrologer"
+                  className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
+                >
+                  Spiritual Healer in {city}
+                </Link>
+                <Link
+                  href="/connect-with-astrologer"
+                  className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
+                >
+                  Chakra Cleansing in {city}
+                </Link>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* ── Why Choose + Commitment ── */}
+      <div className="bg-[#FFF2EB] border-y border-[#ffc09d]/40 px-4 sm:px-10 md:px-14 lg:px-20 py-12 md:py-16">
+        <div className="max-w-5xl mx-auto flex flex-col gap-10">
+
+          {/* Why Choose */}
+          <div className="flex flex-col gap-6">
+            <div className="flex flex-col md:items-center gap-4 md:text-center">
+              <p className="font-quicksand font-semibold text-xs uppercase tracking-widest text-secondary/60">Reasons to Trust Us</p>
+              <h2 className="text-2xl md:text-3xl font-medium font-playfair-display leading-snug">
+                <span className="text-secondary">Why Choose </span>
+                <span className="text-foreground font-playfair-display-italic">Astro Sanatana?</span>
+              </h2>
+            </div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              {whyChoose.map((item) => (
+                <div key={item.label} className="flex flex-col gap-2 p-5 bg-white rounded-2xl border border-[#ffc09d]/30 shadow-sm">
+                  <div className="w-8 h-8 rounded-full bg-primary/15 flex items-center justify-center shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" className="text-secondary">
+                      <path d="M20 6 9 17l-5-5" />
+                    </svg>
+                  </div>
+                  <p className="font-playfair-display font-semibold text-foreground text-base">{item.label}</p>
+                  <p className="font-quicksand font-medium text-secondary text-sm leading-relaxed">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Our Commitment */}
+          <div className="flex flex-col md:items-center gap-4 md:text-center max-w-3xl md:mx-auto">
+            <h3 className="text-xl md:text-2xl font-medium font-playfair-display leading-snug">
+              <span className="text-secondary">Our </span>
+              <span className="text-foreground font-playfair-display-italic">Commitment</span>
+            </h3>
+            <p className="text-secondary font-quicksand font-medium text-base leading-relaxed">
+              Every consultation is conducted with sincerity, professionalism, and respect. Our purpose is to help
+              clients gain meaningful insight and practical spiritual guidance that supports positive growth and
+              informed decision-making.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      {/* ── Contact Astro Sanatana ── */}
+      <div className="px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-14">
+        <div className="max-w-3xl mx-auto flex flex-col md:items-center gap-5 md:text-center">
+          <p className="font-quicksand font-semibold text-xs uppercase tracking-widest text-secondary/60">Reach Out</p>
+          <h2 className="text-2xl md:text-3xl font-medium font-playfair-display leading-snug">
+            <span className="text-secondary">Contact </span>
+            <span className="text-foreground font-playfair-display-italic">Astro Sanatana</span>
+          </h2>
+          <p className="text-secondary font-quicksand font-medium text-base md:text-lg leading-relaxed">
+            If you are seeking guidance regarding relationships, marriage, career, family matters, spirituality,
+            or personal growth, Astro Sanatana is here to help.
+          </p>
+        </div>
+      </div>
+
+      {/* ── Contact Info ── */}
+      <div className="px-4 sm:px-10 md:px-14 lg:px-20 pb-10 md:pb-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl md:mx-auto">
 
-          {/* Address */}
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2">
               <Image alt="" aria-hidden="true" loading="lazy" width={20} height={20} decoding="async" className="w-5 h-5" src="/global.svg" />
@@ -207,7 +279,6 @@ export default function AboutPage() {
             </p>
           </div>
 
-          {/* Email & Phone */}
           <div className="flex flex-col gap-3">
             <div className="flex items-center gap-2">
               <Image alt="" aria-hidden="true" loading="lazy" width={20} height={20} decoding="async" className="w-5 h-5" src="/message.svg" />
@@ -222,7 +293,6 @@ export default function AboutPage() {
             <p className="text-primary text-xs font-quicksand">For support and bookings please contact us anytime.</p>
           </div>
 
-          {/* Social */}
           <div className="flex flex-col gap-3">
             <span className="text-foreground text-xl font-medium font-playfair-display">Follow Us</span>
             <div className="flex gap-4 items-center">
@@ -250,10 +320,24 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* CTA */}
-      <div className="py-8">
-        <ConnectNow />
+      {/* ── Business Card / Tagline ── */}
+      <div className="px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-14">
+        <div className="max-w-2xl mx-auto flex flex-col items-center gap-4 text-center p-8 md:p-10 bg-[#FFF2EB] rounded-3xl border border-[#ffc09d]/50">
+          <Image src="/star-primary.svg" alt="" width={36} height={36} aria-hidden="true" className="opacity-70" />
+          <h3 className="font-playfair-display font-bold text-foreground text-2xl md:text-3xl">Astro Sanatana</h3>
+          <p className="font-quicksand font-semibold text-secondary text-sm md:text-base leading-relaxed">
+            Indian Astrologer &bull; Psychic Reader &bull; Palm Reader &bull; Fortune Teller &bull; Spiritual Healer &bull; Chakra Cleansing Specialist
+          </p>
+          <div className="h-px w-16 bg-[#ffc09d]/60" />
+          <p className="font-quicksand font-medium text-primary text-sm">
+            Serving California and clients nationwide.
+          </p>
+          <p className="font-quicksand font-medium text-secondary text-sm leading-relaxed max-w-sm">
+            Discover clarity, balance, and positive direction through the wisdom of astrology and spiritual guidance.
+          </p>
+        </div>
       </div>
+
 
     </main>
   );

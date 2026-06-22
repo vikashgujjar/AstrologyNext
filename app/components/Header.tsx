@@ -8,7 +8,7 @@ import { services } from "../data/services";
 const navLinks = [
   { label: "Chat now", href: "/connect-with-astrologer" },
   { label: "Call now", href: "tel:+14169314409" },
-  { label: "Gallery", href: "/gallery" },
+  { label: "about", href: "/About Us" },
   { label: "Location", href: "/location" },
 ];
 
@@ -78,7 +78,7 @@ export default function Header() {
               </svg>
             </button>
 
-            <Link className="text-sm font-medium text-secondary hover:text-primary transition-colors" href="/gallery">Gallery</Link>
+            <Link className="text-sm font-medium text-secondary hover:text-primary transition-colors" href="/about">About Us</Link>
             <Link className="text-sm font-medium text-secondary hover:text-primary transition-colors" href="/location">Location</Link>
           </div>
 

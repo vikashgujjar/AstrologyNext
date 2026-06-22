@@ -62,7 +62,6 @@ export default function Footer() {
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/about">About Us</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/location">Location</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/faq">FAQs</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/gallery">Gallery</Link>
                 </div>
               </div>
               <div className="flex flex-col space-y-4">
