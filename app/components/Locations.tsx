@@ -57,7 +57,7 @@ export default function Locations() {
   const visible = showAll ? locations : locations.slice(0, INITIAL_VISIBLE);
 
   return (
-    <section className="w-full px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-16 bg-background">
+    <section className="w-full px-4 sm:px-10 md:px-14 lg:px-20 py-10 md:py-16 bg-background" id="locations">
 
       <h2 className="text-center font-playfair-display text-primary text-2xl sm:text-3xl md:text-4xl font-bold mb-10 md:mb-14 leading-snug">
         To bring back{" "}

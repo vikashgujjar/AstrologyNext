@@ -1,11 +1,11 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 
 export default function FloatingButtons() {
   return (
     <div className="fixed bottom-6 right-4 z-50 flex flex-col gap-3">
       {/* WhatsApp */}
       <Link
-        href="https://wa.me/14169314409"
+        href="https://wa.me/13413455238"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp"
@@ -24,7 +24,7 @@ export default function FloatingButtons() {
 
       {/* Call */}
       <Link
-        href="tel:+14169314409"
+        href="tel:+13413455238"
         aria-label="Call Now"
         className="flex items-center justify-center w-13 h-13 rounded-full shadow-lg transition-transform duration-200 hover:scale-110 bg-primary"
       >

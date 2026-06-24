@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import FaqAccordion from "../components/FaqAccordion";
 
@@ -83,7 +83,7 @@ export default function FaqPage() {
                 Ready to begin your journey? Book a personal session with Astro Sanatana today — available in-person and online.
               </p>
               <Link
-                href="https://wa.me/14169314409"
+                href="https://wa.me/13413455238"
                 className="inline-flex items-center gap-2 bg-secondary text-white font-quicksand font-medium rounded-full px-6 py-3 hover:bg-secondary/80 transition-colors text-sm w-fit"
               >
                 Book on WhatsApp
@@ -96,11 +96,11 @@ export default function FaqPage() {
             {/* Quick contact */}
             <div className="flex flex-col gap-3 p-6 bg-[#FFF2EB] rounded-2xl md:rounded-3xl border border-[#ffc09d]/40">
               <h3 className="text-foreground text-lg font-semibold font-playfair-display">Quick Contact</h3>
-              <Link href="tel:+14169314409" className="flex items-center gap-3 text-primary font-quicksand font-medium text-sm hover:text-secondary transition-colors">
+              <Link href="tel:+13413455238" className="flex items-center gap-3 text-primary font-quicksand font-medium text-sm hover:text-secondary transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 12 19.79 19.79 0 0 1 1.07 3.38A2 2 0 0 1 3 1.07h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                +1 416-931-4409
+                +1 (341) 345-5238
               </Link>
               <Link href="mailto:astrosanatana.info@gmail.com" className="flex items-center gap-3 text-primary font-quicksand font-medium text-sm hover:text-secondary transition-colors break-all">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0">

@@ -154,7 +154,7 @@ export default function TeamCarousel() {
                               {member.specialty}, {member.experience}
                             </p>
                           </div>
-                          <Link className="w-full" href="/connect-with-astrologer">
+                          <Link className="w-full" href="/connect-with-astro-sanatana">
                             <button className="inline-flex items-center px-5 py-5 justify-center gap-2 whitespace-nowrap rounded-full transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-secondary text-white shadow-sm hover:bg-secondary/80 h-9 text-sm w-full font-playfair-display font-bold">
                               <svg
                                 xmlns="http://www.w3.org/2000/svg"

@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { services } from "../data/services";
 import ConnectNow from "../components/ConnectNow";
@@ -29,7 +29,7 @@ export default function ServicesPage() {
           </p>
           <div className="flex flex-wrap gap-3 md:justify-center mt-2">
             <Link
-              href="https://wa.me/14169314409"
+              href="https://wa.me/13413455238"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-secondary text-white font-quicksand font-semibold rounded-full px-6 py-3 hover:bg-secondary/80 transition-colors text-sm"
@@ -37,7 +37,7 @@ export default function ServicesPage() {
               Book a Consultation
             </Link>
             <Link
-              href="/connect-with-astrologer"
+              href="/connect-with-astro-sanatana"
               className="inline-flex items-center gap-2 border border-secondary text-secondary font-quicksand font-semibold rounded-full px-6 py-3 hover:bg-secondary hover:text-white transition-colors text-sm"
             >
               Learn More
@@ -105,8 +105,8 @@ export default function ServicesPage() {
               <h3 className="text-foreground font-playfair-display font-semibold text-lg">Call Us</h3>
               <p className="text-primary font-quicksand font-medium text-sm mt-1">Speak directly with our astrologers for immediate guidance.</p>
             </div>
-            <Link href="tel:+14169314409" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors inline-flex items-center gap-1 mt-auto">
-              +1 416-931-4409
+            <Link href="tel:+13413455238" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors inline-flex items-center gap-1 mt-auto">
+              +1 (341) 345-5238
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
             </Link>
           </div>
@@ -121,7 +121,7 @@ export default function ServicesPage() {
               <h3 className="text-foreground font-playfair-display font-semibold text-lg">WhatsApp</h3>
               <p className="text-primary font-quicksand font-medium text-sm mt-1">Chat with us instantly for quick questions and bookings.</p>
             </div>
-            <Link href="https://wa.me/14169314409" target="_blank" rel="noopener noreferrer" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors inline-flex items-center gap-1 mt-auto">
+            <Link href="https://wa.me/13413455238" target="_blank" rel="noopener noreferrer" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors inline-flex items-center gap-1 mt-auto">
               Start Chat
               <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
             </Link>

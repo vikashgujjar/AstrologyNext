@@ -6,6 +6,7 @@ export type Location = {
 };
 
 export const locations: Location[] = [
+  { name: "California",        slug: "california",        image: "/locationsImg/California.webp",      mapQuery: "California, USA" },
   { name: "New York",          slug: "new-york",          image: "/locationsImg/NewYork.webp",         mapQuery: "New York, NY, USA" },
   { name: "Florida",           slug: "florida",           image: "/locationsImg/Florida.webp",         mapQuery: "Florida, USA" },
   { name: "Georgia",           slug: "georgia",           image: "/locationsImg/Georgia.webp",         mapQuery: "Georgia, USA" },
@@ -15,7 +16,6 @@ export const locations: Location[] = [
   { name: "Philadelphia",      slug: "philadelphia",      image: "/locationsImg/Philadelphia.webp",    mapQuery: "Philadelphia, PA, USA" },
   { name: "Texas",             slug: "texas",             image: "/locationsImg/Texas.webp",           mapQuery: "Texas, USA" },
   { name: "Miami",             slug: "miami",             image: "/locationsImg/Miami.webp",           mapQuery: "Miami, FL, USA" },
-  { name: "California",        slug: "california",        image: "/locationsImg/California.webp",      mapQuery: "California, USA" },
   { name: "Jacksonville",      slug: "jacksonville",      image: "/locationsImg/Jacksonville.webp",    mapQuery: "Jacksonville, FL, USA" },
   { name: "Baltimore",         slug: "baltimore",         image: "/locationsImg/Baltimore.webp",       mapQuery: "Baltimore, MD, USA" },
   { name: "Chicago",           slug: "chicago",           image: "/locationsImg/Chicago.webp",         mapQuery: "Chicago, IL, USA" },

@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm";
 
@@ -27,8 +27,8 @@ const contactCards = [
       </svg>
     ),
     title: "Call Us",
-    lines: ["+1 416-931-4409"],
-    href: "tel:+14169314409",
+    lines: ["+1 (341) 345-5238"],
+    href: "tel:+13413455238",
     cta: "Call Now",
   },
   {
@@ -162,7 +162,7 @@ export default function ContactPage() {
                 Prefer a quick chat? Reach us directly on WhatsApp for instant spiritual guidance and bookings.
               </p>
               <Link target="_blank" rel="noopener noreferrer"
-                href="https://wa.me/14169314409"
+                href="https://wa.me/13413455238"
                 className="inline-flex items-center gap-2 bg-secondary text-white font-quicksand font-medium rounded-full px-6 py-3 hover:bg-secondary/80 transition-colors text-sm w-fit"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="currentColor">

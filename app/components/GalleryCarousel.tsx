@@ -8,6 +8,25 @@ import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 
 const SLIDES = [
+  
+  {
+    src: "/carouselsImg/5.png",
+    alt: "Love that Heals",
+    title: "Sacred Vedic Ritual & Spiritual Blessings",
+    description: "Experience authentic Vedic rituals performed by experienced priests according to ancient Hindu traditions. These sacred ceremonies invoke divine blessings for prosperity, success, peace, health, and spiritual well-being.",
+  },
+  {
+    src: "/carouselsImg/6.png",
+    alt: "Love that Heals",
+    title: "Sacred Vedic Ritual & Spiritual Blessings",
+    description: "Experience authentic Vedic rituals performed by experienced priests according to ancient Hindu traditions. These sacred ceremonies invoke divine blessings for prosperity, success, peace, health, and spiritual well-being.",
+  },
+  {
+    src: "/carouselsImg/7.png",
+    alt: "Love that Heals",
+    title: "Sacred Vedic Ritual & Spiritual Blessings",
+    description: "Experience authentic Vedic rituals performed by experienced priests according to ancient Hindu traditions. These sacred ceremonies invoke divine blessings for prosperity, success, peace, health, and spiritual well-being.",
+  },
   {
     src: "/carouselsImg/2.png",
     alt: "Cleanse. Balance. Align.",

@@ -4,6 +4,7 @@ import Link from "next/link";
 const services = [
   { label: "Black Magic Removal", image: "/AstrologyImg/BlackMagicRemoval.jpg", slug: "black-magic-removal" },
   { label: "Chakra Cleansing",              image: "/AstrologyImg/chakra.jpg",                slug: "chakra-cleansing" },
+  { label: "Generational Curse & Past Life Karma",  image: "/AstrologyImg/GenerationalCursandPast.jpg",  slug: "generational-curse-past-life-karma" },
   { label: "Identify Blockages & Root Issues", image: "/AstrologyImg/identify-blockages-root-issues.png", slug: "identify-blockages-root-issues" },
   { label: "Get Your Ex Love Back",          image: "/AstrologyImg/GetYourExLoveBack.jpg",       slug: "get-your-ex-love-back" },
   { label: "Evil Spirit Removal", image: "/AstrologyImg/EvilSpiritRemoval.jpg", slug: "evil-spirit-removal" },
@@ -17,7 +18,6 @@ const services = [
   // { label: "Win Lotto", image: "/AstrologyImg/WinLotto.jpg", slug: "win-lotto" },
   { label: "Job & Business Problems",              image: "/AstrologyImg/JobBusinessProblems.jpg",              slug: "job-business-problems" },
   { label: "Financial Stuck",                       image: "/AstrologyImg/FinancialStuck.jpg",               slug: "financial-stuck" },
-  { label: "Generational Curse & Past Life Karma",  image: "/AstrologyImg/GenerationalCursandPast.jpg",  slug: "generational-curse-past-life-karma" },
 ];
 
 export default function Solutions() {

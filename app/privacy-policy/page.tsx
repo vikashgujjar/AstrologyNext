@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
@@ -116,7 +116,7 @@ const sections = [
     title: "12. Contact Us",
     content: [
       "If you have any questions, concerns, or requests regarding this Privacy Policy or the handling of your personal data, please contact us:",
-      "Astro Sanatana\n2175 Decoto Rd, Union City, CA 94587, United States\nPhone: +1 416-931-4409\nEmail: astrosanatana.info@gmail.com",
+      "Astro Sanatana\n2175 Decoto Rd, Union City, CA 94587, United States\nPhone: +1 (341) 345-5238\nEmail: astrosanatana.info@gmail.com",
     ],
   },
 ];
@@ -192,8 +192,8 @@ export default function PrivacyPolicyPage() {
               <p className="text-primary font-quicksand font-medium text-sm leading-relaxed">
                 If you have any concerns about your data or this policy, we&apos;re happy to help.
               </p>
-              <Link href="tel:+14169314409" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors">
-                +1 416-931-4409
+              <Link href="tel:+13413455238" className="text-secondary font-quicksand font-semibold text-sm hover:text-secondary/70 transition-colors">
+                +1 (341) 345-5238
               </Link>
               <Link href="mailto:astrosanatana.info@gmail.com" className="text-secondary font-quicksand font-semibold text-xs hover:text-secondary/70 transition-colors break-all">
                 astrosanatana.info@gmail.com

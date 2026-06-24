@@ -1,10 +1,10 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import ContactForm from "../components/ContactForm";
 import { services } from "../data/services";
 
 export const metadata = {
-  title: "Connect with Astrologer | Astro Sanatana",
+  title: "Connect with Astro Sanatana | Astro Sanatana",
   description: "Connect with expert astrologers at Astro Sanatana via WhatsApp, phone, or email for personalised Vedic astrology, Kundli, Vastu, and spiritual guidance.",
 };
 
@@ -21,7 +21,7 @@ const channels = [
     heading: "Chat on WhatsApp",
     desc: "Get instant replies, share your birth details, and receive guidance — all on WhatsApp.",
     cta: "Start Chat",
-    href: "https://wa.me/14169314409",
+    href: "https://wa.me/13413455238",
     external: true,
   },
   {
@@ -35,8 +35,8 @@ const channels = [
     label: "Phone",
     heading: "Call Us Directly",
     desc: "Speak with our astrologers over the phone for an in-depth personal consultation.",
-    cta: "Call +1 416-931-4409",
-    href: "tel:+14169314409",
+    cta: "Call +1 (341) 345-5238",
+    href: "tel:+13413455238",
     external: false,
   },
   {
@@ -88,8 +88,8 @@ export default function ConnectWithAstrologerPage() {
             <span className="text-secondary font-quicksand font-semibold text-xs">Available 7 days a week</span>
           </div>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium font-playfair-display leading-tight">
-            <span className="text-secondary">Connect with an </span>
-            <span className="text-foreground font-playfair-display-italic">Astrologer</span>
+            <span className="text-secondary">Connect with </span>
+            <span className="text-foreground font-playfair-display-italic">Astro Sanatana</span>
           </h1>
           <p className="text-secondary text-base md:text-lg font-medium font-quicksand leading-relaxed">
             Seek clarity, guidance, and divine wisdom from the expert astrologers at Astro Sanatana.
@@ -97,7 +97,7 @@ export default function ConnectWithAstrologerPage() {
           </p>
           <div className="flex flex-wrap gap-3 md:justify-center mt-2">
             <Link
-              href="https://wa.me/14169314409"
+              href="https://wa.me/13413455238"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 bg-[#25D366] text-white font-quicksand font-semibold rounded-full px-6 py-3 hover:bg-[#25D366]/85 transition-colors text-sm"
@@ -108,7 +108,7 @@ export default function ConnectWithAstrologerPage() {
               Chat on WhatsApp
             </Link>
             <Link
-              href="tel:+14169314409"
+              href="tel:+13413455238"
               className="inline-flex items-center gap-2 border-2 border-secondary text-secondary font-quicksand font-semibold rounded-full px-6 py-3 hover:bg-secondary hover:text-white transition-colors text-sm"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
@@ -284,7 +284,7 @@ export default function ConnectWithAstrologerPage() {
                 Can&apos;t visit in person? We offer phone and video consultations for clients across the globe.
               </p>
               <Link
-                href="https://wa.me/14169314409"
+                href="https://wa.me/13413455238"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-[#25D366] text-white font-quicksand font-semibold rounded-full px-5 py-2.5 hover:bg-[#25D366]/85 transition-colors text-sm w-fit"
@@ -298,11 +298,11 @@ export default function ConnectWithAstrologerPage() {
 
             <div className="flex flex-col gap-3 p-6 bg-white rounded-2xl md:rounded-3xl border border-[#ffc09d]/40">
               <h3 className="text-foreground text-base font-semibold font-playfair-display">Quick Contact</h3>
-              <Link href="tel:+14169314409" className="flex items-center gap-3 text-primary font-quicksand font-medium text-sm hover:text-secondary transition-colors">
+              <Link href="tel:+13413455238" className="flex items-center gap-3 text-primary font-quicksand font-medium text-sm hover:text-secondary transition-colors">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.11 12 19.79 19.79 0 0 1 1.07 3.38A2 2 0 0 1 3 1.07h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z" />
                 </svg>
-                +1 416-931-4409
+                +1 (341) 345-5238
               </Link>
               <Link href="mailto:astrosanatana.info@gmail.com" className="flex items-center gap-3 text-primary font-quicksand font-medium text-sm hover:text-secondary transition-colors break-all">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-secondary shrink-0">
@@ -328,7 +328,7 @@ export default function ConnectWithAstrologerPage() {
         </p>
         <div className="flex flex-wrap gap-3 justify-center">
           <Link
-            href="https://wa.me/14169314409"
+            href="https://wa.me/13413455238"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 bg-secondary text-white font-quicksand font-semibold rounded-full px-7 py-3 hover:bg-secondary/80 transition-colors text-sm"

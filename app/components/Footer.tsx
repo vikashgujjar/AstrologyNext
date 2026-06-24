@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import { services } from "../data/services";
 
@@ -61,6 +61,7 @@ export default function Footer() {
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/about">About Us</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/location">Location</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/gallery">Gallery</Link>
                   <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/faq">FAQs</Link>
                 </div>
               </div>
@@ -98,9 +99,9 @@ export default function Footer() {
                   <div className="text-foreground text-xl font-medium font-playfair-display capitalize leading-relaxed">Astrology</div>
                 </div>
                 <div className="flex-col justify-start items-start gap-3 inline-flex">
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/connect-with-astrologer">Connect with Astrologer</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="https://wa.me/14169314409" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</Link>
-                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="tel:+14169314409">Call Now</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="/connect-with-astro-sanatana">Connect with Astro Sanatana</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="https://wa.me/13413455238" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</Link>
+                  <Link className="text-primary text-sm font-semibold font-quicksand capitalize leading-5" href="tel:+13413455238">Call Now</Link>
                 </div>
               </div>
               <div className="flex flex-col space-y-4">
@@ -145,7 +146,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col gap-2">
                 <Link href="mailto:astrosanatana.info@gmail.com" className="text-primary text-sm font-normal font-quicksand leading-5 hover:text-secondary transition-colors break-all">astrosanatana.info@gmail.com</Link>
-                <Link href="tel:+14169314409" className="text-primary text-xl font-normal font-quicksand leading-5 hover:text-secondary transition-colors">+1 416-931-4409</Link>
+                <Link href="tel:+13413455238" className="text-primary text-xl font-normal font-quicksand leading-5 hover:text-secondary transition-colors">+1 (341) 345-5238</Link>
                 <div className="text-primary text-sm font-semibold font-quicksand capitalize leading-5">
                   For support and bookings please contact us anytime.
                 </div>

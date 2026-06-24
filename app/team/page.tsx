@@ -118,7 +118,7 @@ export default function TeamPage() {
           Book a personal consultation with one of our astrologers today.
         </p>
         <div className="flex flex-wrap gap-4 justify-center mt-2">
-          <Link href="/connect-with-astrologer">
+          <Link href="/connect-with-astro-sanatana">
             <button className="inline-flex items-center py-4 px-8 justify-center gap-2 whitespace-nowrap rounded-full text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring bg-secondary text-white shadow-sm hover:bg-secondary/80">
               Talk to an Astrologer
             </button>

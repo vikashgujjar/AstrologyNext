@@ -10,7 +10,7 @@ export default function ConnectCards() {
         <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-2 gap-2.5 md:gap-5">
 
           {/* Chat with Astrologer */}
-          <Link className="w-full" href="/connect-with-astrologer">
+          <Link className="w-full" href="/connect-with-astro-sanatana">
             <div className="rounded-xl border bg-card text-card-foreground shadow border-foreground/40 flex flex-col items-center justify-center p-4 h-24 sm:h-28">
               <span className="[&>svg]:size-6 [&>svg]:fill-secondary sm:bg-gradient-to-r from-violet-300 to-violet-200 bg-none sm:p-2.5 p-0 rounded-full mb-1 ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
@@ -18,13 +18,13 @@ export default function ConnectCards() {
                 </svg>
               </span>
               <span className="text-primary text-base sm:text-xl font-semibold font-quicksand text-center sm:whitespace-nowrap whitespace-pre sm:mt-3 mt-0 leading-4">
-                {`Chat with\nAstrologer`}
+                {`Chat with\nAstro Sanatana`}
               </span>
             </div>
           </Link>
 
           {/* Talk to Astrologer */}
-          <Link className="w-full" href="/connect-with-astrologer">
+          <Link className="w-full" href="/connect-with-astro-sanatana">
             <div className="rounded-xl border bg-card text-card-foreground shadow border-foreground/40 flex flex-col items-center justify-center p-4 h-24 sm:h-28">
               <span className="[&>svg]:size-6 [&>svg]:fill-secondary sm:bg-gradient-to-r from-violet-300 to-violet-200 bg-none sm:p-2.5 p-0 rounded-full mb-1 ">
                 <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21" fill="none">
@@ -32,7 +32,7 @@ export default function ConnectCards() {
                 </svg>
               </span>
               <span className="text-primary text-base sm:text-xl font-semibold font-quicksand text-center sm:whitespace-nowrap whitespace-pre sm:mt-3 mt-0 leading-4">
-                {`Talk to\nAstrologer`}
+                {`Talk to\nAstro Sanatana`}
               </span>
             </div>
           </Link>

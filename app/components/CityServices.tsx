@@ -124,7 +124,7 @@ export default function CityServices() {
                 {items.map((item) => (
                   <Link
                     key={item}
-                    href="/connect-with-astrologer"
+                    href="/connect-with-astro-sanatana"
                     className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
                   >
                     {item}

@@ -1,4 +1,4 @@
-import Image from "next/image";
+﻿import Image from "next/image";
 import Link from "next/link";
 import GalleryCarousel from "../components/GalleryCarousel";
 import ConnectNow from "../components/ConnectNow";
@@ -178,25 +178,25 @@ export default function AboutPage() {
               </div>
               <div className="bg-white p-4 flex flex-col gap-2.5 flex-1">
                 <Link
-                  href="/connect-with-astrologer"
+                  href="/connect-with-astro-sanatana"
                   className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
                 >
                   Astrologer in {city}
                 </Link>
                 <Link
-                  href="/connect-with-astrologer"
+                  href="/connect-with-astro-sanatana"
                   className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
                 >
                   Psychic Reader in {city}
                 </Link>
                 <Link
-                  href="/connect-with-astrologer"
+                  href="/connect-with-astro-sanatana"
                   className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
                 >
                   Spiritual Healer in {city}
                 </Link>
                 <Link
-                  href="/connect-with-astrologer"
+                  href="/connect-with-astro-sanatana"
                   className="block text-center text-primary font-quicksand font-semibold text-sm px-4 py-2.5 rounded-full border border-[#ffc09d]/60 bg-[#FFF2EB] hover:bg-secondary hover:text-white hover:border-secondary transition-colors duration-200"
                 >
                   Chakra Cleansing in {city}
@@ -287,8 +287,8 @@ export default function AboutPage() {
             <Link href="mailto:astrosanatana.info@gmail.com" className="text-primary text-sm font-semibold font-quicksand hover:text-secondary transition-colors break-all">
               astrosanatana.info@gmail.com
             </Link>
-            <Link href="tel:+14169314409" className="text-primary text-sm font-semibold font-quicksand hover:text-secondary transition-colors">
-              +1 416-931-4409
+            <Link href="tel:+13413455238" className="text-primary text-sm font-semibold font-quicksand hover:text-secondary transition-colors">
+              +1 (341) 345-5238
             </Link>
             <p className="text-primary text-xs font-quicksand">For support and bookings please contact us anytime.</p>
           </div>
